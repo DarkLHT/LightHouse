@@ -3242,7 +3242,7 @@ header nav.navbar.white #search-box .form-input :-ms-input-placeholder {
 }
 
 #page-content #flexslider.small, #page-content #flexslider-nav.small {
-  height: 750px !important;
+  height: 500px !important;
 }
 
 @media screen and (max-width: 480px) {
@@ -3252,7 +3252,7 @@ header nav.navbar.white #search-box .form-input :-ms-input-placeholder {
 }
 
 #page-content #flexslider.small ul li, #page-content #flexslider-nav.small ul li {
-  height: 750px !important;
+  height: 500px !important;
 }
 
 @media screen and (max-width: 480px) {
