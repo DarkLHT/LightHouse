@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>Bussible HTML Template</title>
+        <title>Light House Technology</title>
 
         <!-- Bootstrap -->
         <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
@@ -60,22 +60,19 @@
         <header id="header">
             <div class="top-nav">
                 <!--  Header Logo  -->
-                <div id="logo">
-                    <a class="navbar-brand" href="index.html">
+                 <div id="logo">
+                    <a class="navbar-brand" href="index.php">
                         <img src="assets/img/logo.png" class="normal" alt="logo">
                         <img src="assets/img/logo@2x.png" class="retina" alt="logo">
                     </a>
                 </div>
                 <!--  END Header Logo  -->
                 <div class="secondary-menu">
-                    <ul>
-                        <li class="mail"><i class="fa fa-envelope" aria-hidden="true"></i><a href="maito:info@domain.com">info@domain.com</a></li>
-                        <li class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+39 123456789</li>
+                   <ul>
+                        <li class="mail"><i class="fa fa-envelope" aria-hidden="true"></i><a href="maito:info@LightHouse.com">info@lighthouse.com</a></li>
+                        <li class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+212 614-669052</li>
                         <li class="lang">
-                            <span class="current"><a href="#">En</a></span>
-                            <ul>     
-                                <li><a href="#">It</a></li>
-                            </ul>
+                            <span class="current"><a href="#">FR</a></span>
                         </li>
                         <!-- Search Icon -->
                         <li class="search">
@@ -89,60 +86,19 @@
                 <div id="menu-classic">
                     <div class="menu-holder">
                         <ul>
-                            <li class="submenu">
-                                <a href="javascript:void(0)">Home</a>
-                                <ul class="sub-menu">
-                                    <li><a href="index.html">Home Classic</a></li>
-                                    <li><a href="index-corporate.html">Home Corporate</a></li>
-                                </ul>
+                            <li>
+                                <a href="index.php">Accueil</a>                                
                             </li>
                             <li>
-                                <a href="about.html">About</a>
+                                <a class="active-item" href="principes.php">Nos principes</a>
                             </li>
                             <li>
-                                <a href="services.html">Services</a>
-                            </li>
-                            <li class="submenu">
-                                <a href="javascript:void(0)" class="active-item">Pages</a>
-                                <ul class="sub-menu">
-                                    <li><a href="career.html">Career</a>
-                                    </li>
-                                    <li><a href="resources.html">Resources</a>
-                                    </li>
-                                    <li><a href="timeline.html">Timeline</a></li>
-                                    <li><a href="page-sidebar-left.html">Page Sidebar 1</a></li>
-                                    <li><a href="page-sidebar-right.html">Page Sidebar 2</a></li>
-                                    <li><a href="page-image-header.html">Image Header</a></li>
-
-                                    <li><a href="404.html">404</a></li>
-                                </ul>
-                            </li>
-                            <li class="submenu">
-                                <a href="javascript:void(0)">Portfolio</a>
-                                <ul class="sub-menu">
-                                    <li><a href="portfolio-two-columns.html">Two Columns</a></li>
-                                    <li><a href="portfolio-three-columns.html">Three Columns</a></li>
-                                    <li><a href="portfolio-four-columns.html">Four Columns</a></li>
-                                    <li><a href="project-1.html">Project 1</a></li>
-                                    <li><a href="project-2.html">Project 2</a></li>
-                                </ul>
-                            </li>
-                            <li class="submenu">
-                                <a href="javascript:void(0)">Blog</a>
-                                <ul class="sub-menu">
-                                    <li><a href="blog.html">Blog Classic</a></li>
-                                    <li><a href="blog-sidebar.html">Blog Sidebar </a></li>
-                                    <li><a href="single-post.html">Post</a></li>
-                                    <li><a href="single-post-video.html">Post Video</a></li>
-                                    <li><a href="single-post-slider.html">Post Slider</a></li>
-                                </ul>
+                                <a href="services.php">Services & Produits</a>
                             </li>
                             <li>
-                                <a href="elements.html">Elements</a>
+                                <a href="contact.php">Contact</a>
                             </li>
-                            <li>
-                                <a href="contact.html">Contacts</a>
-                            </li>
+                            
                         </ul>
                     </div>
                 </div>
@@ -158,13 +114,10 @@
                 <!--  END Button for Responsive Menu Classic  -->
                 <div class="secondary-menu-mobile">
                     <ul>
-                        <li class="mail"><i class="fa fa-envelope" aria-hidden="true"></i><a href="maito:info@domain.com">info@domain.com</a></li>
-                        <li class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+39 123456789</li>
+                        <li class="mail"><i class="fa fa-envelope" aria-hidden="true"></i><a href="maito:info@LightHouse.com">info@lighthouse.com</a></li>
+                        <li class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+212 661-327752</li>
                         <li class="lang">
-                            <span class="current"><a href="#">En</a></span>
-                            <ul>     
-                                <li><a href="#">It</a></li>
-                            </ul>
+                            <span class="current"><a href="#">FR</a></span>
                         </li>
                         <!-- Search Icon -->
                         <li class="search">
@@ -176,12 +129,12 @@
             <div id="header-searchform">
                 <form class="search-form">
                     <div class="form-input">
-                        <input type="text" placeholder="Search...">
+                        <input type="text" placeholder="Rechercher...">
                         <span class="form-button-close">
                             <button type="button"><i class="material-icons">close</i></button>
                         </span>
                         <span class="form-button">
-                            <button type="button">Search</button>
+                            <button type="button">Chercher</button>
                         </span>
                     </div>
                 </form>
@@ -194,32 +147,84 @@
             <!--  Page Content  -->
             <div id="page-content" class="header-static">
                 <!--  Page Header  -->
-                <div id="post-header">
-                    <div class="bg-image" style="background-image:url(assets/img/slider.jpg)"></div>
+                <div id="page-header" class="secondary-background">
                     <div class="container">
                         <div class="row no-margin">
-                            <div class="text secondary-background">
-                                <div class="post-meta padding-onlybottom-md">
-                                    <h1 class="white margin-bottom-small">Error 404.</h1>
-                                    <ul class="categories white">
-                                        <li>Page not found</li>
-                                    </ul>
-                                    <span class="date white">We cannot seem to find the page that you are looking for.</span>
-                                </div>
-                                <a href="index.html" class="btn-alt small white margin-null">Back to Home</a>
+                            <div class="text">
+                                <h1 class="white">Nos principes</h1>
+                                <ul class="breadcrumb white">
+                                    <li><a href="#">Acceuil</a></li>
+                                    <li>Nos principes</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!--  END Page Header  -->
-                <div id="home-wrap" class="content-section fullpage-wrap padding-onlybottom-lg">
+                <div id="home-wrap" class="content-section fullpage-wrap">
+                    <div class="container">
+                        <!-- Section Image -->
+                        <div class="row no-margin padding-lg">
+                            <div class="col-md-6 padding-leftright-null">
+                               <div class="text padding-topbottom-null">
+                                   <h2 class="margin-bottom-null left">Nos principes</h2>
+                                   <div class="padding-onlytop-sm">
+								   <br/><br/><br/>
+                                       <p class="margin-bottom margin-md-bottom-null">Nos points forts sont le professionnalisme de nos équipe, la qualité de nos produit et services ainsi que la permanente écoute client.
+<br/><br/>
+Avant de vous proposer un produit, nous effectuons une analyse du besoin de façon à vous proposer la solution technologique qui sera en parfaite adéquation avec vos besoins au quotidien.
+</p>
+                                   </div>
+                               </div>
+                            </div>
+                            <div class="col-md-6 padding-leftright-null padding-md-top">
+                                <div class="text padding-topbottom-null">
+                                    <picture>
+                                        <img src="assets/img/about.jpg" class="img-responsive shadow" alt="">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END Section Image -->
+                    </div>
+                    <!-- Services Section -->
+                    <div class="light-background">
+                        <div class="container">
+                            <div class="row no-margin padding-lg">
+                                <div class="col-md-4 padding-leftright-null">
+                                    <div class="text padding-topbottom-null padding-md-bottom">
+                                        <i class="material-icons color service">trending_up</i>
+                                        <h3 class="margin-bottom-extrasmall">Mission</h3>
+                                        <p class="margin-bottom-null">Faire fonctionner l’informatique de nos clients et améliorer la façon dont ils font leur business au quotidien.
+                                        <br>Fournir des solutions et services IT de qualité qui changent la façon dont les entreprises font des affaires.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 padding-leftright-null">
+                                    <div class="text padding-topbottom-null">
+                                        <i class="material-icons color service">lightbulb_outline</i>
+                                        <h3 class="margin-bottom-extrasmall">Vision</h3>
+                                        <p class="margin-bottom-null">Stimuler le progrès, le changement et l’amélioration à travers l’IT et être le premier choix pour nos clients, partenaires.
+                                        <br>Être une entreprise très efficace et en évolution rapide et constante dans le temps</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 padding-leftright-null">
+                                    <div class="text padding-topbottom-null padding-md-bottom">
+                                        <i class="material-icons color service">card_travel</i>
+                                        <h3 class="margin-bottom-extrasmall">Notre équipe</h3>
+                                        <p class="margin-bottom-null">Nos techniciens sont sélectionnés sur leurs expériences technique. Ce sont des experts dans leurs domaines, qui possèdent au minimum trois ans de pratique dans leur métier.<br>Nous recrutons et entretenons des relations avec ces développeurs avec la plus grande sélectivité.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END Services Section -->
+                    
                 </div>
             </div>
             <!--  END Page Content -->
         </div>
         <!--  Main Wrap  -->
         
-
         <!--  Footer  -->
         <footer>
             <div class="container">
@@ -229,41 +234,40 @@
                             <img src="assets/img/logo_white.png" class="normal" alt="logo">
                             <img src="assets/img/logo_white@2x.png" class="retina" alt="logo">
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <p>Société de conception web, externalisation de développement d’applications windows, web et mobile.</p>
                         <div>
                             <ul class="social">
-                                <li>Find us on</li>
-                                <li><a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                                <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li>Trouvez-nous sur :</li>
+                                <li><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                                 <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-3 text small">
-                        <h4 class="heading white margin-bottom-small weight-300">Head Office</h4>
-                        <p>Bussible Company <br>
-                            322 Moon St, Venice, 1231, Italy<br>
-                            Mon. - Fri., 9 a.m. - 6.00 p.m.</p>
+                   <div class="col-md-3 text small">
+                        <h4 class="heading white margin-bottom-small weight-300">Notre Bureau</h4>
+                        <p>LightHouse Technology <br>
+                            61 Avenue Lalla Yacout Mustapha El Maani,
+                            Centre Commercial Riad N°85 2éme Etage Casablanca, Maroc<br>
+                            Lun. - Ven., 9 a.m. - 6.00 p.m.</p>
                     </div>
                     <div class="col-md-2 text small">
-                        <h4 class="heading white margin-bottom-small weight-300">Important link</h4>
+                        <h4 class="heading white margin-bottom-small weight-300">Liens Importants</h4>
                         <ul class="info">
-                            <li><a href="">Home</a></li>
-                            <li><a href="">Who we are</a></li>
-                            <li><a href="">Support</a></li>
-                            <li><a href="">FAQ</a></li>
-                            <li><a href="">Contact</a></li>
+                            <li><a href="index.php">Accueil</a></li>
+                            <li><a href="principes.php">Nos principes</a></li>
+                            <li><a href="services.php">Services & Produits</a></li>
+                            <li><a href="contact.php">Contact</a></li>
                         </ul>
                     </div>
                     <div class="col-md-4 text">
-                        <h4 class="heading white margin-bottom-small weight-300">News Subscribtion</h4>
-                        <p>Subscribe to our newsletter to get all our news in your inbox.</p>
+                        <h4 class="heading white margin-bottom-small weight-300">Nouveaux Abonnés</h4>
+                        <p>Abonnez-vous à notre newsletter pour recevoir toutes nos nouvelles dans votre boîte de réception.</p>
                         <div id="newsletter-form">
                             <form class="search-form">
                                 <div class="form-input">
-                                    <input type="text" placeholder="Your email ID">
+                                    <input type="text" placeholder="Votre Adresse Courriel">
                                     <span class="form-button">
-                                        <button type="button">Sign Up</button>
+                                        <button type="button">S'inscrire</button>
                                     </span>
                                 </div>
                             </form>
@@ -276,14 +280,7 @@
             <div class="container">
                 <div class="row no-margin">
                     <div class="col-md-6 text">
-                        <p>©2017 <a href="#">PuredesignThemes</a>. All rights reserved. </p>
-                    </div>
-                    <div class="col-md-6 text text-right">
-                        <ul>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Cookie Policy</a></li>
-                            <li><a href="#">Term and Condition</a></li>
-                        </ul>
+                        <p>©2017 <a href="#">LightHouse Technology</a>. All rights reserved. </p>
                     </div>
                 </div>
             </div>

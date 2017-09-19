@@ -61,14 +61,14 @@
             <div class="top-nav">
                 <!--  Header Logo  -->
                  <div id="logo">
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="index.php">
                         <img src="assets/img/logo.png" class="normal" alt="logo">
                         <img src="assets/img/logo@2x.png" class="retina" alt="logo">
                     </a>
                 </div>
                 <!--  END Header Logo  -->
                 <div class="secondary-menu">
-                   <ul>
+                    <ul>
                         <li class="mail"><i class="fa fa-envelope" aria-hidden="true"></i><a href="maito:info@LightHouse.com">info@lighthouse.com</a></li>
                         <li class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+212 614-669052</li>
                         <li class="lang">
@@ -87,16 +87,16 @@
                     <div class="menu-holder">
                         <ul>
                             <li>
-                                <a href="index.html">Accueil</a>                                
+                                <a href="javascript:void(0)" class="active-item">Accueil</a>                                
                             </li>
                             <li>
-                                <a class="active-item" href="principes.html">Nos principes</a>
+                                <a href="principes.php">Nos principes </a>
                             </li>
                             <li>
-                                <a href="services.html">Services & Produits</a>
+                                <a href="services.php">Services & Produits</a>
                             </li>
                             <li>
-                                <a href="contact.html">Contact</a>
+                                <a href="contact.php">Contact</a>
                             </li>
                             
                         </ul>
@@ -146,85 +146,183 @@
         <div id="main-wrap">
             <!--  Page Content  -->
             <div id="page-content" class="header-static">
-                <!--  Page Header  -->
-                <div id="page-header" class="secondary-background">
-                    <div class="container">
-                        <div class="row no-margin">
-                            <div class="text">
-                                <h1 class="white">Nos principes</h1>
-                                <ul class="breadcrumb white">
-                                    <li><a href="#">Acceuil</a></li>
-                                    <li>Nos principes</li>
-                                </ul>
+                <!--  Slider  -->
+                <div id="flexslider-nav" class="fullpage-wrap small">
+                    <ul class="slides">
+                        <li style="background-image:url(assets/img/conseil.jpg)">
+                            <div class="text center">
+                                <h1 class="heading center white margin-bottom-small flex-animation">Accompagnement & Conseil technique</h1>
+                                <p class="heading white center margin-bottom flex-animation"></p>
+                                <div class="padding-onlytop-md flex-animation">                                    
+                                    <a href="services.php" class="btn-alt small shadow">Lire la suite</a>
+                                </div>
                             </div>
-                        </div>
+                            <div class="gradient dark"></div>
+                        </li>
+                        <li style="background-image:url(assets/img/ApplicationBureau.jpg)">
+                            <div class="text center">
+                                <h1 class="heading center white margin-bottom-small flex-animation no-opacity">Création des sites web</h1>
+                                <div class="padding-onlytop-md flex-animation">                                    
+                                    <a href="services.php" class="btn-alt small shadow">Lire la suite</a>
+                                </div>
+                            </div>
+                            <div class="gradient dark"></div>
+                        </li>
+                        <li style="background-image:url(assets/img/CreationSitesWeb.jpg)">
+                            <div class="text center">
+                                <h1 class="heading center white margin-bottom-small flex-animation no-opacity">Développement logiciel</h1>
+                                <p class="heading white center margin-bottom flex-animation no-opacity"></p>
+                                <div class="padding-onlytop-md flex-animation">                                    
+                                    <a href="services.php" class="btn-alt small shadow">Lire la suite</a>
+                                </div>
+                            </div>
+                            <div class="gradient dark"></div>
+                        </li>
+                        <li style="background-image:url(assets/img/Design.jpg)">
+                            <div class="text center">
+                                <h1 class="heading center white margin-bottom-small flex-animation no-opacity">Infographie & Design</h1>
+                                
+                                <div class="padding-onlytop-md flex-animation">
+                                    
+                                    <a href="services.php" class="btn-alt small shadow">Lire la suite</a>
+                                </div>
+                            </div>
+                            <div class="gradient dark"></div>
+                        </li>
+                    </ul>
+                    <div class="slider-navigation">
+                        <a href="#" class="flex-prev"><i class="material-icons">keyboard_arrow_left</i></a>
+                        <div class="slider-controls-container"></div>
+                        <a href="#" class="flex-next"><i class="material-icons">keyboard_arrow_right</i></a>
+                    </div>
+                    <div id="godown">
+                        <a href="#home-wrap" class="btn-down">
+                            <i class="material-icons">keyboard_arrow_down</i>
+                        </a>
                     </div>
                 </div>
-                <!--  END Page Header  -->
+                <!--  END Slider  -->
                 <div id="home-wrap" class="content-section fullpage-wrap">
+                    <!-- Abous us -->
                     <div class="container">
                         <!-- Section Image -->
-                        <div class="row no-margin padding-lg">
+                        <div>
                             <div class="col-md-6 padding-leftright-null">
-                               <div class="text padding-topbottom-null">
-                                   <h2 class="margin-bottom-null left">Nos principes</h2>
-                                   <div class="padding-onlytop-sm">
-								   <br/><br/><br/>
-                                       <p class="margin-bottom margin-md-bottom-null">Nos points forts sont le professionnalisme de nos équipe, la qualité de nos produit et services ainsi que la permanente écoute client.
-<br/><br/>
-Avant de vous proposer un produit, nous effectuons une analyse du besoin de façon à vous proposer la solution technologique qui sera en parfaite adéquation avec vos besoins au quotidien.
-</p>
-                                   </div>
-                               </div>
-                            </div>
-                            <div class="col-md-6 padding-leftright-null padding-md-top">
-                                <div class="text padding-topbottom-null">
-                                    <picture>
-                                        <img src="assets/img/about.jpg" class="img-responsive shadow" alt="">
-                                    </picture>
+                                <div data-responsive="parent-height" data-responsive-id="about" class="text">
+                                    <h2 class="margin-bottom-null left">À propos de nous</h2>
+                                    <div class="padding-onlytop-sm">
+                                        <p class="margin-bottom grey"><b>Light House Technology</b> est une société de conception web, externalisation de développement d’applications windows, web et mobile spécifiques, spécialisée dans l'intégration d'applications de gestion innovantes dans l'entreprise, les solutions dédiées à l'industrie et l'outsourcing stratégique.<br/>
+                                        - Nous mettons en place des solutions technologiques personnalisées et adaptées à nos clients. <br/>
+                                        - Notre expérience combinée en informatique et en matière de gestion nous permet d'offrir à nos clients un ensemble de services synergiques de présence et de promotion sur internet. 
+                                        </p>
+                                       
+                                    </div>
                                 </div>
+                            </div>
+                            <div class="col-md-6 padding-leftright-null" style="margin-bottom: 20px">
+                                <div data-responsive="child-height" data-responsive-id="about" class="section-image height-auto-sm">
+                                   <picture class="section right" >
+                                       <img src="assets/img/tablet.png" class="img-responsive" alt="">
+                                   </picture>
+                               </div>
                             </div>
                         </div>
                         <!-- END Section Image -->
                     </div>
-                    <!-- Services Section -->
-                    <div class="light-background">
-                        <div class="container">
-                            <div class="row no-margin padding-lg">
-                                <div class="col-md-4 padding-leftright-null">
-                                    <div class="text padding-topbottom-null padding-md-bottom">
-                                        <i class="material-icons color service">trending_up</i>
-                                        <h3 class="margin-bottom-extrasmall">Mission</h3>
-                                        <p class="margin-bottom-null">Faire fonctionner l’informatique de nos clients et améliorer la façon dont ils font leur business au quotidien.
-                                        <br>Fournir des solutions et services IT de qualité qui changent la façon dont les entreprises font des affaires.</p>
-                                    </div>
+                    <!-- Services -->
+                    <div class="light-background"> 
+                        <div class="container padding-lg">
+                           
+                            <!-- END Services -->
+							<div class="col-md-12 padding-leftright-null text-center">
+                                    <h2 class="margin-bottom-small left">Services</h2>
                                 </div>
-                                <div class="col-md-4 padding-leftright-null">
-                                    <div class="text padding-topbottom-null">
-                                        <i class="material-icons color service">lightbulb_outline</i>
-                                        <h3 class="margin-bottom-extrasmall">Vision</h3>
-                                        <p class="margin-bottom-null">Stimuler le progrès, le changement et l’amélioration à travers l’IT et être le premier choix pour nos clients, partenaires.
-                                        <br>Être une entreprise très efficace et en évolution rapide et constante dans le temps</p>
-                                    </div>
+							<section id="news" class="page">
+							
+                            <div class="news-items equal three-columns">
+							
+                                <!-- Single News -->
+                                <div class="single-news one-item">
+                                    <article>
+                                        <img src="assets/img/news1.jpg" alt="">
+                                        <div class="content">
+                                            <h3><b>Accompagnement & conseil technique<b></h3>
+                                         
+                                        </div>
+                                        <a href="services.php#faisabilite" class="link"></a>
+                                    </article>
                                 </div>
-                                <div class="col-md-4 padding-leftright-null">
-                                    <div class="text padding-topbottom-null padding-md-bottom">
-                                        <i class="material-icons color service">card_travel</i>
-                                        <h3 class="margin-bottom-extrasmall">Notre équipe</h3>
-                                        <p class="margin-bottom-null">Nos techniciens sont sélectionnés sur leurs expériences technique. Ce sont des experts dans leurs domaines, qui possèdent au minimum trois ans de pratique dans leur métier.<br>Nous recrutons et entretenons des relations avec ces développeurs avec la plus grande sélectivité.</p>
-                                    </div>
+                                <!-- END Single News -->
+                                <div class="single-news one-item">
+                                    <article>
+                                        <img src="assets/img/news2.jpg" alt="">
+                                        <div class="content">
+                                            <h3><b>Développement logiciel<br/><br/><b></h3>
+                                            
+                                        </div>
+                                        <a href="services.php#developpementLogiciel" class="link"></a>
+                                    </article>
                                 </div>
+                                <div class="single-news one-item">
+                                    <article>
+                                        <img src="assets/img/news3.jpg" alt="">
+                                        <div class="content">
+                                            <h3><b>Développement d'application Web<b></h3>
+                                            
+                                        </div>
+                                        <a href="services.php#developpementWeb" class="link"></a>
+                                    </article>
+                                </div>
+                                <div class="single-news one-item">
+                                    <article>
+                                        <img src="assets/img/news4.jpg" alt="">
+                                        <div class="content">
+                                            <h3><b>Développement sites Web<br/><br/></b></h3>
+                                           
+                                        </div>
+                                        <a href="services.php#developpementSiteWeb" class="link"></a>
+                                    </article>
+                                </div>
+                                
+                                <div class="single-news one-item">
+                                    <article>
+                                        <img src="assets/img/news5.jpg" alt="">
+                                        <div class="content">
+                                            <h3><b>Héberegement Web <br/><br/><b></h3>
+                                            
+                                        </div>
+                                        <a href="services.php#developpementSiteWeb" class="link"></a>
+                                    </article>
+                                </div>
+                                <div class="single-news one-item">
+                                    <article>
+                                        <img src="assets/img/news6.jpg" alt="">
+                                        <div class="content">
+                                            <h3><b>Infographie & Design <br/><br/><b></h3>
+                                            
+                                        </div>
+                                        <a href="services.php#infographieDesign" class="link"></a>
+                                    </article>
+                                </div>
+                                
                             </div>
+                        </section>
+							
                         </div>
                     </div>
-                    <!-- END Services Section -->
+                    <!-- END Services -->
+                   
                     
+                    
+                  
                 </div>
             </div>
             <!--  END Page Content -->
         </div>
         <!--  Main Wrap  -->
         
+        
+
         <!--  Footer  -->
         <footer>
             <div class="container">
@@ -252,11 +350,11 @@ Avant de vous proposer un produit, nous effectuons une analyse du besoin de faç
                     </div>
                     <div class="col-md-2 text small">
                         <h4 class="heading white margin-bottom-small weight-300">Liens Importants</h4>
-                        <ul class="info">
-                            <li><a href="index.html">Accueil</a></li>
-                            <li><a href="principes.html">Nos principes</a></li>
-                            <li><a href="services.html">Services & Produits</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                       <ul class="info">
+                            <li><a href="index.php">Accueil</a></li>
+                            <li><a href="principes.php">Nos principes</a></li>
+                            <li><a href="services.php">Services & Produits</a></li>
+                            <li><a href="contact.php">Contact</a></li>
                         </ul>
                     </div>
                     <div class="col-md-4 text">
@@ -282,6 +380,7 @@ Avant de vous proposer un produit, nous effectuons une analyse du besoin de faç
                     <div class="col-md-6 text">
                         <p>©2017 <a href="#">LightHouse Technology</a>. All rights reserved. </p>
                     </div>
+                    
                 </div>
             </div>
         </div>

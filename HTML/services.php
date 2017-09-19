@@ -61,7 +61,7 @@
             <div class="top-nav">
                 <!--  Header Logo  -->
                 <div id="logo">
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="index.php">
                         <img src="assets/img/logo.png" class="normal" alt="logo">
                         <img src="assets/img/logo@2x.png" class="retina" alt="logo">
                     </a>
@@ -87,16 +87,16 @@
                     <div class="menu-holder">
                         <ul>
                             <li class="submenu">
-                                <a href="index.html">Accueil</a>                                
+                                <a href="index.php">Accueil</a>                                
                             </li>
                             <li>
-                                <a href="principes.html">Nos principes</a>
+                                <a href="principes.php">Nos principes</a>
                             </li>
                             <li>
-                                <a href="services.html" class="active-item">Services & Produits</a>
+                                <a href="services.php" class="active-item">Services & Produits</a>
                             </li>
                             <li>
-                                <a href="contact.html">Contact</a>
+                                <a href="contact.php">Contact</a>
                             </li>
                             
                         </ul>
@@ -305,10 +305,10 @@
                     <div class="col-md-2 text small">
                         <h4 class="heading white margin-bottom-small weight-300">Liens Importants</h4>
                         <ul class="info">
-                            <li><a href="index.html">Accueil</a></li>
-                            <li><a href="principes.html">Nos principes</a></li>
-                            <li><a href="services.html">Services & Produits</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="index.php">Accueil</a></li>
+                            <li><a href="principes.php">Nos principes</a></li>
+                            <li><a href="services.php">Services & Produits</a></li>
+                            <li><a href="contact.php">Contact</a></li>
                         </ul>
                     </div>
                     <div class="col-md-4 text">
