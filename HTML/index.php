@@ -249,7 +249,7 @@
                                             <h3><b>Accompagnement & conseil technique<b></h3>
                                          
                                         </div>
-                                        <a href="services.php#faisabilite" class="link"></a>
+                                        <a href="services.php#faisabilité" class="link"></a>
                                     </article>
                                 </div>
                                 <!-- END Single News -->
@@ -260,7 +260,7 @@
                                             <h3><b>Développement logiciel<br/><br/><b></h3>
                                             
                                         </div>
-                                        <a href="services.php#developpementLogiciel" class="link"></a>
+                                        <a href="services.php#développementLogiciel" class="link"></a>
                                     </article>
                                 </div>
                                 <div class="single-news one-item">
@@ -270,7 +270,7 @@
                                             <h3><b>Développement d'application Web<b></h3>
                                             
                                         </div>
-                                        <a href="services.php#developpementWeb" class="link"></a>
+                                        <a href="services.php#développementWeb" class="link"></a>
                                     </article>
                                 </div>
                                 <div class="single-news one-item">
@@ -280,7 +280,7 @@
                                             <h3><b>Développement sites Web<br/><br/></b></h3>
                                            
                                         </div>
-                                        <a href="services.php#developpementSiteWeb" class="link"></a>
+                                        <a href="services.php#développementSiteWeb" class="link"></a>
                                     </article>
                                 </div>
                                 
@@ -291,7 +291,7 @@
                                             <h3><b>Héberegement Web <br/><br/><b></h3>
                                             
                                         </div>
-                                        <a href="services.php#developpementSiteWeb" class="link"></a>
+                                        <a href="services.php#développementSiteWeb" class="link"></a>
                                     </article>
                                 </div>
                                 <div class="single-news one-item">

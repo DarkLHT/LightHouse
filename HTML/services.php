@@ -187,7 +187,7 @@
                     <div class="light-background">
                     <div class="container">
                         <!-- Service -->
-                        <div class="row no-margin padding-lg"  id="developpementLogiciel">
+                        <div class="row no-margin padding-lg"  id="développementLogiciel">
                             <div class="col-md-4 padding-leftright-null">
                                     <div class="text padding-topbottom-null">
                                         <picture>
@@ -208,7 +208,7 @@
                     </div>                            
                         <div class="container">
                         <!-- Service -->
-                        <div class="row no-margin padding-lg"  id="developpementWeb">
+                        <div class="row no-margin padding-lg"  id="développementWeb">
                             <div class="col-md-4 padding-leftright-null">
                                     <div class="text padding-topbottom-null">
                                         <picture>
@@ -230,7 +230,7 @@
                     <div class="light-background">
                         <div class="container">
                             <!-- Service -->
-                            <div class="row no-margin padding-lg"  id="developpementSiteWeb">
+                            <div class="row no-margin padding-lg"  id="développementSiteWeb">
                                 <div class="col-md-4 padding-leftright-null">
                                     <div class="text padding-topbottom-null">
                                         <picture>
