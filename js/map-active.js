@@ -8,10 +8,10 @@
         }]
     }];
     var mapOptions = {
-        zoom: 18,
+        zoom: 14,
         center: latlng,
-        scrollwheel: true,
-        scaleControl: true,
+        scrollwheel: false,
+        scaleControl: false,
         disableDefaultUI: true,
         mapTypeControlOptions: {
             mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'gMap']
