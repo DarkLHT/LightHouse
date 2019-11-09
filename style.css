@@ -150,6 +150,14 @@
     .section_padding_100 {
         padding: 100px 0;
     }
+
+    .section_padding_20 {
+        padding: 20px 0;
+    }
+
+    .section_padding_25 {
+        padding: 25px 0;
+    }
     
     .section_padding_100_0 {
         padding: 100px 0 0 0;
@@ -176,7 +184,7 @@
     .section_heading {
         margin-bottom: 50px;
         position: relative;
-        z-index: 1;
+        z-index: 3;
         text-align: center;
     }
     
@@ -364,7 +372,7 @@
     .main_menu_area {
         float: right;
         position: relative;
-        z-index: 1;
+        z-index: 3;
     }
     
     .mainmenu {
@@ -443,13 +451,13 @@
     /* >>>>>>>>>>>>>> :: 5.0 Slider Area CSS <<<<<<<<<<<<<<< */
     .welcome_area {
         position: relative;
-        z-index: 1;
+        z-index: 3;
         overflow: hidden;
     }
     
     .single_slide {
         position: relative;
-        z-index: 1;
+        z-index: 3;
         background-position: center center;
         background-size: cover;
     }
@@ -653,8 +661,8 @@
 
     /* >>>>>>>>>>>>>> :: 7.0 About Us Area CSS <<<<<<<<<<<<<<< */
     .about_us_text > h3 {
+        margin: 25px 0px;
         color: #0047c6;
-        text-transform: uppercase;
     }
     
     .about_us_text > h3 span {
@@ -2180,7 +2188,6 @@
         margin: 0 auto;
         padding: 15px 24px;
         text-align: center;
-        text-transform: capitalize;
         width: 100%;
     }
     
@@ -2541,4 +2548,110 @@
         width: 30px;
     }
 
-    /* >>>>>>>>>>>>> Chat box <<<<<<<<<<<<< */
+/* >>>>>>>>>>>>> Chat box <<<<<<<<<<<<< */
+
+.wrapper p {
+  text-align: center;
+  margin: 0 0 10px;
+  color: #777;
+  font-size: 12px;
+}
+
+.wrapper {
+  position: fixed;
+  width: 260px;
+  bottom: 115px;
+  right: 20px;
+  padding: 10px;
+  border: 2px solid #eee;
+  background: whitesmoke;
+  border-radius: 3px;
+  display: none;
+  z-index: 2;
+}
+
+.fa-times {
+  color: #222;
+  opacity: 0.1;
+  transition: all 0.2s;
+}
+
+.fa-times:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+#whatsapp {
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+  border: none;
+  border-radius: 50%;
+  background: #1ab95c;
+  color: #fcfcfc;
+  font-size: 22px;
+  height: 40px;
+  width: 40px;
+  outline: none;
+  z-index: 2;
+}
+
+#whatsapp:hover {
+  cursor: pointer;
+}
+
+#msg {
+  display: block;
+  height: 150px;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  background: #fff;
+  resize: none;
+  outline: none;
+  padding: 5px;
+  font-family: 'Open Sans';
+  letter-spacing: 1px;
+}
+
+#sendMsg {
+  display: block;
+  border: none;
+  width: 100%;
+  margin: 10px 0 0;
+  background: #0759e7;
+  color: #fcfcfc;
+  padding: 5px 0;
+  border-radius: 3px;
+  transition: background 0.2s;
+}
+
+#sendMsg:hover {
+  cursor: pointer;
+  background: #0146bd;
+}
+
+/* >>>>>>>>>>>>> Contact <<<<<<<<<<<<< */
+.section-heading {
+    font-size: 28px;
+    line-height: 1em;
+    margin-bottom: 20px;
+    margin-top: 0;
+    padding-bottom: 5px;
+    position: relative;
+    color: #0146bd;
+    font-weight: 600; }
+
+.rs-icon-info-2 {
+    margin: 20px 0px ;
+    display: flex;
+    align-items: flex-start; }
+
+.rs-icon-info-2 .info-icon {
+    margin: 0px 30px 0px 20px;
+    font-size: 40px;
+    text-align: center;
+    color: #0146bd; }
+
+.rs-icon-info-2 .body-text {
+    position: relative; }
