@@ -2011,7 +2011,6 @@
         position: absolute;
         right: 5%;
         top: 5%;
-        transition-duration: 500ms;
         width: 90%;
         opacity: 0;
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -2196,10 +2195,6 @@
     .success,
     .error {
         padding: 1em;
-        margin-bottom: 12px;
-        margin-bottom: 12px;
-        margin-bottom: 12px;
-        margin-bottom: 12px;
         margin-bottom: 12px;
         margin-bottom: 0.75rem;
         text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
