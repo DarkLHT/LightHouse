@@ -331,9 +331,6 @@
     
     .mainmenu {
         display: inline-block;
-    }
-    
-    .mainmenu {
         text-align: right;
     }
     
@@ -359,16 +356,14 @@
     
     .main_header_area .mainmenu ul#nav li.current_page_item a {
         color: #0047c6;
+        background-color: transparent;
     }
     
     .main_header_area.sticky .mainmenu ul#nav li.current_page_item a {
         background-color: #f6f6f6;
     }
     
-    .main_header_area .mainmenu ul#nav li.current_page_item a {
-        background-color: transparent;
-    }
-    
+   
     .mainmenu ul#nav li a i,
     .mean-container .mean-nav ul li a i {
         font-size: 14px;
@@ -1409,10 +1404,6 @@
         border-radius: 6px 6px 0 0;
     }
     
-    .single_latest_news_text_area {
-        padding: 20px;
-    }
-
     /* >>>>>>>>>>>>>> :: 17.0 Partner Area CSS <<<<<<<<<<<<<<< */
     .partner_area {
         background-color: #f6f6f6;
@@ -2431,6 +2422,7 @@
     .why_choose_us_text_area.second_area .single_choose_us {
         padding-right: 0;
         padding-left: 85px;
+        text-align: left;
     }
     
     .why_choose_us_text_area.second_area .choose_us_icon {
@@ -2438,11 +2430,7 @@
         left: 0;
         top: 2px;
     }
-    
-    .why_choose_us_text_area.second_area .single_choose_us {
-        text-align: left;
-    }
-    
+   
     .why_choose_us_image {
         padding-top: 20px;
     }
