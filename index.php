@@ -1690,49 +1690,13 @@ header("X-XSS-Protection: 1; mode=block");
 
 
 
-    <!-- jQuery (necessary for all JavaScript plugins) -->
-    <script src="js/jquery-2.2.4.min.js"></script>
-
-    <!-- chat box js -->
-    <script src="js/chat-box.js"></script>
-
-    <!-- Bootstrap js -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Owl-carousel js -->
-    <script src="js/owl.carousel.min.js"></script>
-
-    <!-- Meanmenu js -->
-    <script src="js/meanmenu.js"></script>
-
-    <!-- Onepage Nav js -->
-    <script src="js/jquery.nav.min.js"></script>
-
-    <!-- Magnific Popup js -->
-    <script src="js/jquery.magnific-popup.min.js"></script>
-
-    <!-- Back to top js -->
-    <script src="js/jquery.scrollUp.js"></script>
-
-    <!-- jQuery easing js -->
-    <script src="js/jquery.easing.1.3.js"></script>
-
-    <!-- WOW js -->
-    <script src="js/wow.min.js"></script>
-
-    <!-- parallux js -->
-    <script src="js/jquery.stellar.min.js"></script>
-
-    <!-- Footer Reveal js -->
-    <script src="js/footer-reveal.js"></script>
-
-    <!-- YouTube Video Player js -->
-    <script src="js/YTPlayer.min.js"></script>
+    <!-- jQuery (necessary for all JavaScript plugins) & chat box js & Bootstrap js & Owl-carousel js & Meanmenu js 
+         & Onepage Nav js  & Magnific Popup js & Back to top js & jQuery easing js & WOW js & parallux js & Footer Reveal js
+         & YouTube Video Player js & GOOGLE ACTIVE JS-->
+    <script src="js/all.js"></script>
 
     <!-- GOOGLE MAPS -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBADnIw7r6GvStpU2eS0T8akkJCuEnATmA&callback=initMap" type="text/javascript"></script>
-    <!-- GOOGLE ACTIVE JS -->
-    <script src="js/map-active.js"></script>
 
     <!-- Active js -->
     <script src="js/custom.js"></script>
