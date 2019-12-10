@@ -1,51 +1,5 @@
-    /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-    :: Template name: Bizplus - One Page Parallax
-    :: Template URI: https://themeforest.net/item/bizplus-one-page-parallax/19283907
-    :: Description: Bizplus One Page Parallax is a complete startup business template. It’s creative, minimal and clean design. It’s perfect for any startup business, companies, agencies, and freelancers which need a professional way to showcase their projects and services.
-    :: Template Author: ClassyFort
-    :: Template Author URI: https://themeforest.net/user/classyfort
-    :: Version: 1.3.0
-    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
-
-    /* >>>>>>>>>>>>>>>>>>>>>>>>>>>
-    :: 1.0 Import All CSS & Fonts
-    :: 2.0 Common/Base CSS
-    :: 3.0 Preloader CSS
-    :: 4.0 Header Area CSS
-    :: 5.0 Slider Area CSS
-    :: 6.0 Top Feature Area CSS
-    :: 7.0 About Us Area CSS
-    :: 8.0 Services Area CSS
-    :: 9.0 Service Modal Area CSS
-    :: 10.0 Speciality Area CSS
-    :: 11.0 Service Details Area CSS
-    :: 12.0 Video Area CSS
-    :: 13.0 Price Plan Area CSS
-    :: 14.0 Our Advisor Area CSS
-    :: 15.0 Testimonial Area CSS
-    :: 16.0 Blog Area CSS
-    :: 17.0 Partner Area CSS
-    :: 18.0 Footer Area CSS
-    :: 19.0 Faq Area CSS
-    :: 20.0 Timeline Area CSS
-    :: 21.0 Bredcumb Area CSS
-    :: 22.0 Blog Area CSS
-    :: 23.0 Gallery Area CSS
-    :: 24.0 Contact Us Area CSS
-    :: 25.0 Sidebar Area CSS
-    <<<<<<<<<<<<<<<<<<<<<<<<<<<< */
-
     /* >>>>>>>>>>>>>> :: 1.0 Import All CSS & Fonts <<<<<<<<<<<<<<< */
-    @import 'css/bootstrap.min.css';
-    @import 'css/magnific-popup.css';
-    @import 'css/animate.css';
-    @import 'css/meanmenu.css';
-    @import 'css/icofont.css';
-    @import 'css/owl.carousel.css';
-    @import 'css/YTPlayer.css';
-
-    /* Web Fonts */
-    @import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans:600,700|Poiret+One');
+   
 
     /* >>>>>>>>>>>>>> :: 2.0 Common CSS <<<<<<<<<<<<<<< */
     
@@ -483,7 +437,7 @@
         text-align: center;
     }
     
-    .single_slide .slide_text h2 {
+    .single_slide .slide_text h1 {
         color: #fff;
         font-size: 50px;
         font-weight: 400;
@@ -491,7 +445,7 @@
         text-transform: capitalize;
     }
     
-    .single_slide .slide_text h2 > span {
+    .single_slide .slide_text h1 > span {
         color: #ffffff;
     }
     
@@ -2503,7 +2457,7 @@
         color: #ffffff;
     }
     
-    .classic_version .single_slide .slide_text h2 {
+    .classic_version .single_slide .slide_text h1 {
         color: #2668da;
     }
 

@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+
+<?php 
+header("X-XSS-Protection: 1; mode=block");
+?>
+
 <html lang="fr">
 
 <head>
@@ -7,23 +12,36 @@
     <meta name="keywords" content="Site, site vitrine, site dynamique, agence SOE, Référencement, Application, Mobile, Windows, Conception, WEB, graphique, Design, Wordpress, Conseil, Accompagnement, Innovation, Maroc, Casablanca, Développement web Maroc, Création site web, Création application, Développement applications, Création web Maroc, Maroc application, Meilleures société application au Maroc, Site, Internet, web, Design, Application, Agence, creation, e-commerce, logo, developpement, hebergement, communication, clients">
     <meta name="revised" content="30/11/2019">
     <meta name="author" content="Light House Technology">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
     <!-- Title  -->
-    <title>Conception Web, Développement d’applications windows, web et mobiles au Maroc - Société Light House Technology</title>
+    <title>Conception web et mobiles au Maroc - Société Light House Technology</title>
     <!-- Favicon  -->
     <link rel="shortcut icon" href="img/core-img/favicon.ico">
 
+    <meta property="og:title" content="Conception web et mobiles au Maroc - Société Light House Technology" />
+    <meta property="og:type" content="Conception web et mobile" />
+    <meta property="og:url" content="lighthouse.ma" />
+    
+
     <!-- >>>>>>>>>>>>>>>> All CSS Files <<<<<<<<<<<<<<<< -->
     <!-- Style css -->
+    <link rel='stylesheet' type='text/css' href='css/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' href='css/magnific-popup.css'>
+    <link rel='stylesheet' type='text/css' href='css/animate.css'>
+    <link rel='stylesheet' type='text/css' href='css/meanmenu.css'>
+    <link rel='stylesheet' type='text/css' href='css/icofont.css'>
+    <link rel='stylesheet' type='text/css' href='css/owl.carousel.css'>
+    <link rel='stylesheet' type='text/css' href='css/YTPlayer.css'>
+
     <link rel="stylesheet" href="style.css">
     <!-- Responsive css -->
     <link rel="stylesheet" href="css/responsive.css">
 
 </head>
 
-<body class="classic_version" onload="initialize()">
+<body class="classic_version" >
     <!-- preloader start -->
     <div id="preloader">
         <span class="cssload-loader"><span class="cssload-loader-inner"></span></span>
@@ -85,7 +103,7 @@
                 <div class="slide_text">
                     <div class="table">
                         <div class="table_cell">
-                            <h2 class="font-poiret-one"><span>Développons ensemble le succès de vos projets</span></h2>
+                            <h1 class="font-poiret-one"><span>Développons ensemble le succès de vos projets</span></h1>
                             <h3>Nous vous accompagnons tout au long de votre processus de digitalisation.</h3>
                         </div>
                     </div>
@@ -96,7 +114,7 @@
                 <div class="slide_text">
                     <div class="table">
                         <div class="table_cell">
-                            <h2 class="font-poiret-one"><span>Des solutions IT pertinentes à votre business</span></h2>
+                            <h1 class="font-poiret-one"><span>Des solutions IT pertinentes à votre business</span></h1>
                             <h3>Nous concevons les applications les plus adaptés à vos besoins.</h3>
                         </div>
                     </div>
@@ -107,7 +125,7 @@
                 <div class="slide_text">
                     <div class="table">
                         <div class="table_cell">
-                            <h2 class="font-poiret-one"><span>L’innovation en conception web et graphique</span></h2>
+                            <h1 class="font-poiret-one"><span>L’innovation en conception web et graphique</span></h1>
                             <h3>Des designs attractifs et innovants pour refléter votre identité et valoriser votre image.</h3>
                         </div>
                     </div>
@@ -808,7 +826,7 @@
     <!-- >>>>>>>>>>>>>>>> Points forts Area End <<<<<<<<<<<<<<<< -->
     <!-- >>>>>>>>>>>>>>>> Nos dernières réalisations Détails start <<<<<<<<<<<<<<<< -->
     <!-- JIDBOX Start -->
-    <div id="works_details_wrapper">
+    <div id="works_details_wrapper1">
         <!-- Modal-box -->
         <div role="dialog" tabindex="-1" id="works_jidbox" class="modal fade in">
             <div role="document" class="modal-dialog">
@@ -840,7 +858,7 @@
                                             </div>
                                             <!--  Description -->
                                             <div class="description">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit aliquam hic doloribus dolores minus fugiat totam perspiciatis. Debitis, exercitationem maiores. Possimus eum at hic, reprehenderit similique voluptatibus quibusdam nesciunt necessitatibus.</p>
+                                                <p aria-hidden="true"></p>
                                             </div>
                                             <!--   live preview button   -->
                                             <div class="live_preview">
@@ -858,7 +876,7 @@
         </div>
     </div>
     <!-- TADD-ART Start -->
-    <div id="works_details_wrapper">
+    <div id="works_details_wrapper2">
         <!-- Modal-box -->
         <div role="dialog" tabindex="-1" id="works_taddart" class="modal fade in">
             <div role="document" class="modal-dialog">
@@ -890,7 +908,7 @@
                                             </div>
                                             <!--  Description -->
                                             <div class="description">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit aliquam hic doloribus dolores minus fugiat totam perspiciatis. Debitis, exercitationem maiores. Possimus eum at hic, reprehenderit similique voluptatibus quibusdam nesciunt necessitatibus.</p>
+                                                <p aria-hidden="true"></p>
                                             </div>
                                             <!--   live preview button   -->
                                             <div class="live_preview">
@@ -908,7 +926,7 @@
         </div>
     </div>
     <!-- MONALISA Start -->
-    <div id="works_details_wrapper">
+    <div id="works_details_wrapper3">
         <!-- Modal-box -->
         <div role="dialog" tabindex="-1" id="works_monalisa" class="modal fade in">
             <div role="document" class="modal-dialog">
@@ -940,7 +958,7 @@
                                             </div>
                                             <!--  Description -->
                                             <div class="description">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit aliquam hic doloribus dolores minus fugiat totam perspiciatis. Debitis, exercitationem maiores. Possimus eum at hic, reprehenderit similique voluptatibus quibusdam nesciunt necessitatibus.</p>
+                                                <p aria-hidden="true"></p>
                                             </div>
                                             <!--   live preview button   -->
                                             <div class="live_preview">
@@ -958,7 +976,7 @@
         </div>
     </div>
     <!-- DIAA Start -->
-    <div id="works_details_wrapper">
+    <div id="works_details_wrapper4">
         <!-- Modal-box -->
         <div role="dialog" tabindex="-1" id="works_diaa" class="modal fade in">
             <div role="document" class="modal-dialog">
@@ -990,7 +1008,7 @@
                                             </div>
                                             <!--  Description -->
                                             <div class="description">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit aliquam hic doloribus dolores minus fugiat totam perspiciatis. Debitis, exercitationem maiores. Possimus eum at hic, reprehenderit similique voluptatibus quibusdam nesciunt necessitatibus.</p>
+                                                <p aria-hidden="true"></p>
                                             </div>
                                             <!--   live preview button   -->
                                             <div class="live_preview">
@@ -1008,7 +1026,7 @@
         </div>
     </div>
     <!-- SBI Start -->
-    <div id="works_details_wrapper">
+    <div id="works_details_wrapper5">
         <!-- Modal-box -->
         <div role="dialog" tabindex="-1" id="works_sbi" class="modal fade in">
             <div role="document" class="modal-dialog">
@@ -1040,7 +1058,7 @@
                                             </div>
                                             <!--  Description -->
                                             <div class="description">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit aliquam hic doloribus dolores minus fugiat totam perspiciatis. Debitis, exercitationem maiores. Possimus eum at hic, reprehenderit similique voluptatibus quibusdam nesciunt necessitatibus.</p>
+                                                <p aria-hidden="true"></p>
                                             </div>
                                             <!--   live preview button   -->
                                             <div class="live_preview">
@@ -1058,7 +1076,7 @@
         </div>
     </div>
     <!-- EMI Start -->
-    <div id="works_details_wrapper">
+    <div id="works_details_wrapper6">
         <!-- Modal-box -->
         <div role="dialog" tabindex="-1" id="works_emi" class="modal fade in">
             <div role="document" class="modal-dialog">
@@ -1090,7 +1108,7 @@
                                             </div>
                                             <!--  Description -->
                                             <div class="description">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit aliquam hic doloribus dolores minus fugiat totam perspiciatis. Debitis, exercitationem maiores. Possimus eum at hic, reprehenderit similique voluptatibus quibusdam nesciunt necessitatibus.</p>
+                                                <p aria-hidden="true"></p>
                                             </div>
                                             <!--   live preview button   -->
                                             <div class="live_preview">
@@ -1108,7 +1126,7 @@
         </div>
     </div>
     <!-- LCC Start -->
-    <div id="works_details_wrapper">
+    <div id="works_details_wrapper7">
         <!-- Modal-box -->
         <div role="dialog" tabindex="-1" id="works_lcc" class="modal fade in">
             <div role="document" class="modal-dialog">
@@ -1140,7 +1158,7 @@
                                             </div>
                                             <!--  Description -->
                                             <div class="description">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit aliquam hic doloribus dolores minus fugiat totam perspiciatis. Debitis, exercitationem maiores. Possimus eum at hic, reprehenderit similique voluptatibus quibusdam nesciunt necessitatibus.</p>
+                                                <p aria-hidden="true"></p>
                                             </div>
                                             <!--   live preview button   -->
                                             <div class="live_preview">
@@ -1158,7 +1176,7 @@
         </div>
     </div>
     <!-- SMETRAP Start -->
-    <div id="works_details_wrapper">
+    <div id="works_details_wrapper8">
         <!-- Modal-box -->
         <div role="dialog" tabindex="-1" id="works_smetrap" class="modal fade in">
             <div role="document" class="modal-dialog">
@@ -1190,7 +1208,7 @@
                                             </div>
                                             <!--  Description -->
                                             <div class="description">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit aliquam hic doloribus dolores minus fugiat totam perspiciatis. Debitis, exercitationem maiores. Possimus eum at hic, reprehenderit similique voluptatibus quibusdam nesciunt necessitatibus.</p>
+                                                <p aria-hidden="true"></p>
                                             </div>
                                             <!--   live preview button   -->
                                             <div class="live_preview">
@@ -1240,7 +1258,7 @@
                                             </div>
                                             <!--  Description -->
                                             <div class="description">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit aliquam hic doloribus dolores minus fugiat totam perspiciatis. Debitis, exercitationem maiores. Possimus eum at hic, reprehenderit similique voluptatibus quibusdam nesciunt necessitatibus.</p>
+                                                <p aria-hidden="true"></p>
                                             </div>
                                             <!--   live preview button   -->
                                             <div class="live_preview">
@@ -1541,7 +1559,7 @@
                         </div>
                     </div>
                     <div class="col-sm-8 col-md-8 col-xs-12">
-                    <h2 class="section-heading text-left mb-5">Envoyez-nous un message</h2>
+                    <h1 class="section-heading text-left mb-5">Envoyez-nous un message</h1>
                     <p align="justify">Si vous avez besoin d'informations supplémentaires, n'hésitez pas à nous contacter.</p>
                     <div class="contact_from">
                         <form action="mail.php" method="post" id="main_contact_form">
@@ -1553,31 +1571,31 @@
                                     <!-- Single Input Area Start -->
                                     <div class="col-sm-6 col-md-6 col-xs-12">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" name="name" id="name" placeholder="Votre nom" required>
+                                            <input type="text" class="form-control" title="name" name="name" id="name" placeholder="Votre nom" required>
                                         </div>
                                     </div>
                                     <!-- Single Input Area Start -->
                                     <div class="col-sm-6 col-md-6 col-xs-12">
                                         <div class="form-group">
-                                            <input type="email" class="form-control" name="email" id="email" placeholder="Votre e-mail" required>
+                                            <input type="email" class="form-control" title="email" name="email" id="email" placeholder="Votre e-mail" required>
                                         </div>
                                     </div>
                                     <!-- Single Input Area Start -->
                                     <div class="col-sm-6 col-md-6 col-xs-12">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Votre objet" required>
+                                            <input type="text" class="form-control" title="subject" name="subject" id="subject" placeholder="Votre objet" required>
                                         </div>
                                     </div>
                                     <!-- Single Input Area Start -->
                                     <div class="col-sm-6 col-md-6 col-xs-12">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" name="number" id="number" placeholder="Votre numéro de téléphone" required>
+                                            <input type="text" class="form-control" title="number" name="number" id="number" placeholder="Votre numéro de téléphone" required>
                                         </div>
                                     </div>
                                     <!-- Single Input Area Start -->
                                     <div class="col-sm-12 col-md-12 col-xs-12">
                                         <div class="form-group">
-                                            <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Laissez votre message" required></textarea>
+                                            <textarea name="message" class="form-control" title="message"  id="message" cols="30" rows="10" placeholder="Laissez votre message" required></textarea>
                                         </div>
                                     </div>
                                     <!-- Single Input Area Start -->
@@ -1592,7 +1610,7 @@
                     </div>
                     </div>
                     <div class="col-sm-4 col-xs-12">
-                        <h2 class="section-heading text-left mb-5">Contactez-nous</h2>
+                        <h1 class="section-heading text-left mb-5">Contactez-nous</h1>
                     <div class="section_padding_25">
                         <!-- Single Feature Area Start -->
                         <div class="rs-icon-info-2">
@@ -1669,6 +1687,8 @@
     <!-- >>>>>>>>>>>>>>>> Footer Area End <<<<<<<<<<<<<<<< -->
 
     <!-- >>>>>>>>>>>>>>>> All jQuery Plugins <<<<<<<<<<<<<<<< -->
+
+
 
     <!-- jQuery (necessary for all JavaScript plugins) -->
     <script src="js/jquery-2.2.4.min.js"></script>
