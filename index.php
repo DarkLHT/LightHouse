@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <?php 
+ header('X-Frame-Options: DENY');
 header("X-XSS-Protection: 1; mode=block");
 ?>
 
@@ -23,6 +24,7 @@ header("X-XSS-Protection: 1; mode=block");
     <meta property="og:title" content="Conception web et mobiles au Maroc - Société Light House Technology" />
     <meta property="og:type" content="Conception web et mobile" />
     <meta property="og:url" content="lighthouse.ma" />
+    <meta property="og:image" content="http://lighthouse.ma/img/services-img/Developpement_applications_web_slide.jpg" />
     
 
     <!-- >>>>>>>>>>>>>>>> All CSS Files <<<<<<<<<<<<<<<< -->
