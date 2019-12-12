@@ -1689,8 +1689,7 @@ header("X-XSS-Protection: 1; mode=block");
 
     <!-- >>>>>>>>>>>>>>>> All jQuery Plugins <<<<<<<<<<<<<<<< -->
 
-         & YouTube Video Player js & GOOGLE ACTIVE JS-->
-    <script src="js/all.js"></script>
+        
     <!-- jQuery (necessary for all JavaScript plugins) & chat box js & Bootstrap js & Owl-carousel js & Meanmenu js 
          & Onepage Nav js  & Magnific Popup js & Back to top js & jQuery easing js & WOW js & parallux js & Footer Reveal js
          & YouTube Video Player js & GOOGLE ACTIVE JS-->
