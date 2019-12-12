@@ -1573,24 +1573,28 @@ header("X-XSS-Protection: 1; mode=block");
                                     <!-- Single Input Area Start -->
                                     <div class="col-sm-6 col-md-6 col-xs-12">
                                         <div class="form-group">
+                                           <label for="name">Nom</label>
                                             <input type="text" class="form-control" title="name" name="name" id="name" placeholder="Votre nom" required>
                                         </div>
                                     </div>
                                     <!-- Single Input Area Start -->
                                     <div class="col-sm-6 col-md-6 col-xs-12">
                                         <div class="form-group">
+                                           <label for="email">E-mail</label>
                                             <input type="email" class="form-control" title="email" name="email" id="email" placeholder="Votre e-mail" required>
                                         </div>
                                     </div>
                                     <!-- Single Input Area Start -->
                                     <div class="col-sm-6 col-md-6 col-xs-12">
                                         <div class="form-group">
+                                           <label for="subject">Objet</label>
                                             <input type="text" class="form-control" title="subject" name="subject" id="subject" placeholder="Votre objet" required>
                                         </div>
                                     </div>
                                     <!-- Single Input Area Start -->
                                     <div class="col-sm-6 col-md-6 col-xs-12">
                                         <div class="form-group">
+                                           <label for="number">Téléphone</label>
                                             <input type="text" class="form-control" title="number" name="number" id="number" placeholder="Votre numéro de téléphone" required>
                                         </div>
                                     </div>
@@ -1699,6 +1703,6 @@ header("X-XSS-Protection: 1; mode=block");
     
     <!-- Active js -->
     <script src="js/custom.js"></script>
-
+    <noscript>Your browser does not support JavaScript!</noscript>
 </body>
 </html>
