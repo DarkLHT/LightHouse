@@ -1689,15 +1689,25 @@ header("X-XSS-Protection: 1; mode=block");
 
     <!-- >>>>>>>>>>>>>>>> All jQuery Plugins <<<<<<<<<<<<<<<< -->
 
-         & YouTube Video Player js & GOOGLE ACTIVE JS-->
-    <script src="js/all.js"></script>
+
+
     <!-- jQuery (necessary for all JavaScript plugins) & chat box js & Bootstrap js & Owl-carousel js & Meanmenu js 
          & Onepage Nav js  & Magnific Popup js & Back to top js & jQuery easing js & WOW js & parallux js & Footer Reveal js
          & YouTube Video Player js & GOOGLE ACTIVE JS-->
     <script src="js/all.js"></script>
+
+<<<<<<< HEAD:index.php
+    <!-- WOW js -->
+    <script src="js/wow.min.js"></script>
+
     <!-- GOOGLE MAPS -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBADnIw7r6GvStpU2eS0T8akkJCuEnATmA&callback=initMap" type="text/javascript"></script>
     
+=======
+    <!-- GOOGLE MAPS -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBADnIw7r6GvStpU2eS0T8akkJCuEnATmA&callback=initMap" type="text/javascript"></script>
+
+>>>>>>> origin/master:index.html
     <!-- Active js -->
     <script src="js/custom.js"></script>
 

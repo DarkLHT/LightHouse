@@ -619,6 +619,8 @@ for(var c in b){"transform"===c&&(b[jQuery.CSS.sfx+"transform"]=b[c],delete b[c]
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>End of script YTPlayer.min<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
+<<<<<<< HEAD
+=======
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>map-active<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
     var map;
     var latlng = new google.maps.LatLng(33.58731831729753, -7.612610582942742);
@@ -664,6 +666,7 @@ for(var c in b){"transform"===c&&(b[jQuery.CSS.sfx+"transform"]=b[c],delete b[c]
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>End of script map-active<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
+>>>>>>> origin/master
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>custom<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>End of script custom<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
