@@ -1,4 +1,10 @@
 <!DOCTYPE html>
+
+<?php 
+ header('X-Frame-Options: DENY');
+header("X-XSS-Protection: 1; mode=block");
+?>
+
 <html lang="fr">
 
 <head>
@@ -7,23 +13,37 @@
     <meta name="keywords" content="Site, site vitrine, site dynamique, agence SOE, Référencement, Application, Mobile, Windows, Conception, WEB, graphique, Design, Wordpress, Conseil, Accompagnement, Innovation, Maroc, Casablanca, Développement web Maroc, Création site web, Création application, Développement applications, Création web Maroc, Maroc application, Meilleures société application au Maroc, Site, Internet, web, Design, Application, Agence, creation, e-commerce, logo, developpement, hebergement, communication, clients">
     <meta name="revised" content="30/11/2019">
     <meta name="author" content="Light House Technology">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
     <!-- Title  -->
-    <title>Conception Web, Développement d’applications windows, web et mobiles au Maroc - Société Light House Technology</title>
+    <title>Conception web et mobiles au Maroc - Société Light House Technology</title>
     <!-- Favicon  -->
     <link rel="shortcut icon" href="img/core-img/favicon.ico">
 
+    <meta property="og:title" content="Conception web et mobiles au Maroc - Société Light House Technology" />
+    <meta property="og:type" content="Conception web et mobile" />
+    <meta property="og:url" content="lighthouse.ma" />
+    <meta property="og:image" content="http://lighthouse.ma/img/services-img/Developpement_applications_web_slide.jpg" />
+    
+
     <!-- >>>>>>>>>>>>>>>> All CSS Files <<<<<<<<<<<<<<<< -->
     <!-- Style css -->
+    <link rel='stylesheet' type='text/css' href='css/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' href='css/magnific-popup.css'>
+    <link rel='stylesheet' type='text/css' href='css/animate.css'>
+    <link rel='stylesheet' type='text/css' href='css/meanmenu.css'>
+    <link rel='stylesheet' type='text/css' href='css/icofont.css'>
+    <link rel='stylesheet' type='text/css' href='css/owl.carousel.css'>
+    <link rel='stylesheet' type='text/css' href='css/YTPlayer.css'>
+
     <link rel="stylesheet" href="style.css">
     <!-- Responsive css -->
     <link rel="stylesheet" href="css/responsive.css">
 
 </head>
 
-<body class="classic_version" onload="initialize()">
+<body class="classic_version" >
     <!-- preloader start -->
     <div id="preloader">
         <span class="cssload-loader"><span class="cssload-loader-inner"></span></span>
@@ -85,7 +105,7 @@
                 <div class="slide_text">
                     <div class="table">
                         <div class="table_cell">
-                            <h2 class="font-poiret-one"><span>Développons ensemble le succès de vos projets</span></h2>
+                            <h1 class="font-poiret-one"><span>Développons ensemble le succès de vos projets</span></h1>
                             <h3>Nous vous accompagnons tout au long de votre processus de digitalisation.</h3>
                         </div>
                     </div>
@@ -96,7 +116,7 @@
                 <div class="slide_text">
                     <div class="table">
                         <div class="table_cell">
-                            <h2 class="font-poiret-one"><span>Des solutions IT pertinentes à votre business</span></h2>
+                            <h1 class="font-poiret-one"><span>Des solutions IT pertinentes à votre business</span></h1>
                             <h3>Nous concevons les applications les plus adaptés à vos besoins.</h3>
                         </div>
                     </div>
@@ -107,7 +127,7 @@
                 <div class="slide_text">
                     <div class="table">
                         <div class="table_cell">
-                            <h2 class="font-poiret-one"><span>L’innovation en conception web et graphique</span></h2>
+                            <h1 class="font-poiret-one"><span>L’innovation en conception web et graphique</span></h1>
                             <h3>Des designs attractifs et innovants pour refléter votre identité et valoriser votre image.</h3>
                         </div>
                     </div>
@@ -808,7 +828,7 @@
     <!-- >>>>>>>>>>>>>>>> Points forts Area End <<<<<<<<<<<<<<<< -->
     <!-- >>>>>>>>>>>>>>>> Nos dernières réalisations Détails start <<<<<<<<<<<<<<<< -->
     <!-- JIDBOX Start -->
-    <div id="works_details_wrapper">
+    <div id="works_details_wrapper1">
         <!-- Modal-box -->
         <div role="dialog" tabindex="-1" id="works_jidbox" class="modal fade in">
             <div role="document" class="modal-dialog">
@@ -840,7 +860,7 @@
                                             </div>
                                             <!--  Description -->
                                             <div class="description">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit aliquam hic doloribus dolores minus fugiat totam perspiciatis. Debitis, exercitationem maiores. Possimus eum at hic, reprehenderit similique voluptatibus quibusdam nesciunt necessitatibus.</p>
+                                                <p aria-hidden="true"></p>
                                             </div>
                                             <!--   live preview button   -->
                                             <div class="live_preview">
@@ -858,7 +878,7 @@
         </div>
     </div>
     <!-- TADD-ART Start -->
-    <div id="works_details_wrapper">
+    <div id="works_details_wrapper2">
         <!-- Modal-box -->
         <div role="dialog" tabindex="-1" id="works_taddart" class="modal fade in">
             <div role="document" class="modal-dialog">
@@ -890,7 +910,7 @@
                                             </div>
                                             <!--  Description -->
                                             <div class="description">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit aliquam hic doloribus dolores minus fugiat totam perspiciatis. Debitis, exercitationem maiores. Possimus eum at hic, reprehenderit similique voluptatibus quibusdam nesciunt necessitatibus.</p>
+                                                <p aria-hidden="true"></p>
                                             </div>
                                             <!--   live preview button   -->
                                             <div class="live_preview">
@@ -908,7 +928,7 @@
         </div>
     </div>
     <!-- MONALISA Start -->
-    <div id="works_details_wrapper">
+    <div id="works_details_wrapper3">
         <!-- Modal-box -->
         <div role="dialog" tabindex="-1" id="works_monalisa" class="modal fade in">
             <div role="document" class="modal-dialog">
@@ -940,7 +960,7 @@
                                             </div>
                                             <!--  Description -->
                                             <div class="description">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit aliquam hic doloribus dolores minus fugiat totam perspiciatis. Debitis, exercitationem maiores. Possimus eum at hic, reprehenderit similique voluptatibus quibusdam nesciunt necessitatibus.</p>
+                                                <p aria-hidden="true"></p>
                                             </div>
                                             <!--   live preview button   -->
                                             <div class="live_preview">
@@ -958,7 +978,7 @@
         </div>
     </div>
     <!-- DIAA Start -->
-    <div id="works_details_wrapper">
+    <div id="works_details_wrapper4">
         <!-- Modal-box -->
         <div role="dialog" tabindex="-1" id="works_diaa" class="modal fade in">
             <div role="document" class="modal-dialog">
@@ -990,7 +1010,7 @@
                                             </div>
                                             <!--  Description -->
                                             <div class="description">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit aliquam hic doloribus dolores minus fugiat totam perspiciatis. Debitis, exercitationem maiores. Possimus eum at hic, reprehenderit similique voluptatibus quibusdam nesciunt necessitatibus.</p>
+                                                <p aria-hidden="true"></p>
                                             </div>
                                             <!--   live preview button   -->
                                             <div class="live_preview">
@@ -1008,7 +1028,7 @@
         </div>
     </div>
     <!-- SBI Start -->
-    <div id="works_details_wrapper">
+    <div id="works_details_wrapper5">
         <!-- Modal-box -->
         <div role="dialog" tabindex="-1" id="works_sbi" class="modal fade in">
             <div role="document" class="modal-dialog">
@@ -1040,7 +1060,7 @@
                                             </div>
                                             <!--  Description -->
                                             <div class="description">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit aliquam hic doloribus dolores minus fugiat totam perspiciatis. Debitis, exercitationem maiores. Possimus eum at hic, reprehenderit similique voluptatibus quibusdam nesciunt necessitatibus.</p>
+                                                <p aria-hidden="true"></p>
                                             </div>
                                             <!--   live preview button   -->
                                             <div class="live_preview">
@@ -1058,7 +1078,7 @@
         </div>
     </div>
     <!-- EMI Start -->
-    <div id="works_details_wrapper">
+    <div id="works_details_wrapper6">
         <!-- Modal-box -->
         <div role="dialog" tabindex="-1" id="works_emi" class="modal fade in">
             <div role="document" class="modal-dialog">
@@ -1090,7 +1110,7 @@
                                             </div>
                                             <!--  Description -->
                                             <div class="description">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit aliquam hic doloribus dolores minus fugiat totam perspiciatis. Debitis, exercitationem maiores. Possimus eum at hic, reprehenderit similique voluptatibus quibusdam nesciunt necessitatibus.</p>
+                                                <p aria-hidden="true"></p>
                                             </div>
                                             <!--   live preview button   -->
                                             <div class="live_preview">
@@ -1108,7 +1128,7 @@
         </div>
     </div>
     <!-- LCC Start -->
-    <div id="works_details_wrapper">
+    <div id="works_details_wrapper7">
         <!-- Modal-box -->
         <div role="dialog" tabindex="-1" id="works_lcc" class="modal fade in">
             <div role="document" class="modal-dialog">
@@ -1140,7 +1160,7 @@
                                             </div>
                                             <!--  Description -->
                                             <div class="description">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit aliquam hic doloribus dolores minus fugiat totam perspiciatis. Debitis, exercitationem maiores. Possimus eum at hic, reprehenderit similique voluptatibus quibusdam nesciunt necessitatibus.</p>
+                                                <p aria-hidden="true"></p>
                                             </div>
                                             <!--   live preview button   -->
                                             <div class="live_preview">
@@ -1158,7 +1178,7 @@
         </div>
     </div>
     <!-- SMETRAP Start -->
-    <div id="works_details_wrapper">
+    <div id="works_details_wrapper8">
         <!-- Modal-box -->
         <div role="dialog" tabindex="-1" id="works_smetrap" class="modal fade in">
             <div role="document" class="modal-dialog">
@@ -1190,7 +1210,7 @@
                                             </div>
                                             <!--  Description -->
                                             <div class="description">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit aliquam hic doloribus dolores minus fugiat totam perspiciatis. Debitis, exercitationem maiores. Possimus eum at hic, reprehenderit similique voluptatibus quibusdam nesciunt necessitatibus.</p>
+                                                <p aria-hidden="true"></p>
                                             </div>
                                             <!--   live preview button   -->
                                             <div class="live_preview">
@@ -1240,7 +1260,7 @@
                                             </div>
                                             <!--  Description -->
                                             <div class="description">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit aliquam hic doloribus dolores minus fugiat totam perspiciatis. Debitis, exercitationem maiores. Possimus eum at hic, reprehenderit similique voluptatibus quibusdam nesciunt necessitatibus.</p>
+                                                <p aria-hidden="true"></p>
                                             </div>
                                             <!--   live preview button   -->
                                             <div class="live_preview">
@@ -1541,7 +1561,7 @@
                         </div>
                     </div>
                     <div class="col-sm-8 col-md-8 col-xs-12">
-                    <h2 class="section-heading text-left mb-5">Envoyez-nous un message</h2>
+                    <h1 class="section-heading text-left mb-5">Envoyez-nous un message</h1>
                     <p align="justify">Si vous avez besoin d'informations supplémentaires, n'hésitez pas à nous contacter.</p>
                     <div class="contact_from">
                         <form action="mail.php" method="post" id="main_contact_form">
@@ -1553,31 +1573,31 @@
                                     <!-- Single Input Area Start -->
                                     <div class="col-sm-6 col-md-6 col-xs-12">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" name="name" id="name" placeholder="Votre nom" required>
+                                            <input type="text" class="form-control" title="name" name="name" id="name" placeholder="Votre nom" required>
                                         </div>
                                     </div>
                                     <!-- Single Input Area Start -->
                                     <div class="col-sm-6 col-md-6 col-xs-12">
                                         <div class="form-group">
-                                            <input type="email" class="form-control" name="email" id="email" placeholder="Votre e-mail" required>
+                                            <input type="email" class="form-control" title="email" name="email" id="email" placeholder="Votre e-mail" required>
                                         </div>
                                     </div>
                                     <!-- Single Input Area Start -->
                                     <div class="col-sm-6 col-md-6 col-xs-12">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Votre objet" required>
+                                            <input type="text" class="form-control" title="subject" name="subject" id="subject" placeholder="Votre objet" required>
                                         </div>
                                     </div>
                                     <!-- Single Input Area Start -->
                                     <div class="col-sm-6 col-md-6 col-xs-12">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" name="number" id="number" placeholder="Votre numéro de téléphone" required>
+                                            <input type="text" class="form-control" title="number" name="number" id="number" placeholder="Votre numéro de téléphone" required>
                                         </div>
                                     </div>
                                     <!-- Single Input Area Start -->
                                     <div class="col-sm-12 col-md-12 col-xs-12">
                                         <div class="form-group">
-                                            <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Laissez votre message" required></textarea>
+                                            <textarea name="message" class="form-control" title="message"  id="message" cols="30" rows="10" placeholder="Laissez votre message" required></textarea>
                                         </div>
                                     </div>
                                     <!-- Single Input Area Start -->
@@ -1592,7 +1612,7 @@
                     </div>
                     </div>
                     <div class="col-sm-4 col-xs-12">
-                        <h2 class="section-heading text-left mb-5">Contactez-nous</h2>
+                        <h1 class="section-heading text-left mb-5">Contactez-nous</h1>
                     <div class="section_padding_25">
                         <!-- Single Feature Area Start -->
                         <div class="rs-icon-info-2">
@@ -1601,9 +1621,8 @@
                             </div>
                             <div class="body-text">
                                 <h4>Téléphone</h4>
-                                <p>+212 661 327 752 (Maroc)<br>
-                                    +212 691 985 744 (Maroc)<br>
-                                    +1 418 717 2501 (Canada)</p>
+                                <p>+212 520-404024 (Maroc)<br>
+                                +1 418-717-2501 (Canada)</p>
                             </div>
                         </div>
                         <div class="rs-icon-info-2">
@@ -1621,7 +1640,7 @@
                             </div>
                             <div class="body-text">
                                 <h4>Adresse</h4>
-                                <p>61 Avenue Lalla Yacout, Riad N°85<br> 2éme Etage Casablanca, Maroc</p>
+                                <p>230, Boulvard Ibnou Sina, <br>Hay Hana, Casablanca, Maroc</p>
                             </div>
                         </div>
                     </div>    
@@ -1632,10 +1651,10 @@
     </section>
     <!-- >>>>>>>>>>>>>>>> Contactez-nous Area end <<<<<<<<<<<<<<<< -->
 
-    <div class="map_contact_address_area">
-        <!-- Map Area Start -->
-        <div class="map_area" id="googleMap"></div>
-    </div>
+    <!-- contact-map of the page -->
+    <div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26591.722133530093!2d-7.656794736855873!3d33.58025106714459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d31f52460095%3A0x8fd46fd891536a39!2sLight%20House%20Technology!5e0!3m2!1sfr!2sma!4v1576170263822!5m2!1sfr!2sma" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+	</div>
 
     <!-- >>>>>>>>>>>>>>>> Footer Area Start <<<<<<<<<<<<<<<< -->
     <footer class="footer_area">
@@ -1670,50 +1689,19 @@
 
     <!-- >>>>>>>>>>>>>>>> All jQuery Plugins <<<<<<<<<<<<<<<< -->
 
-    <!-- jQuery (necessary for all JavaScript plugins) -->
-    <script src="js/jquery-2.2.4.min.js"></script>
 
-    <!-- chat box js -->
-    <script src="js/chat-box.js"></script>
 
-    <!-- Bootstrap js -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Owl-carousel js -->
-    <script src="js/owl.carousel.min.js"></script>
-
-    <!-- Meanmenu js -->
-    <script src="js/meanmenu.js"></script>
-
-    <!-- Onepage Nav js -->
-    <script src="js/jquery.nav.min.js"></script>
-
-    <!-- Magnific Popup js -->
-    <script src="js/jquery.magnific-popup.min.js"></script>
-
-    <!-- Back to top js -->
-    <script src="js/jquery.scrollUp.js"></script>
-
-    <!-- jQuery easing js -->
-    <script src="js/jquery.easing.1.3.js"></script>
+    <!-- jQuery (necessary for all JavaScript plugins) & chat box js & Bootstrap js & Owl-carousel js & Meanmenu js 
+         & Onepage Nav js  & Magnific Popup js & Back to top js & jQuery easing js & WOW js & parallux js & Footer Reveal js
+         & YouTube Video Player js & GOOGLE ACTIVE JS-->
+    <script src="js/all.js"></script>
 
     <!-- WOW js -->
     <script src="js/wow.min.js"></script>
 
-    <!-- parallux js -->
-    <script src="js/jquery.stellar.min.js"></script>
-
-    <!-- Footer Reveal js -->
-    <script src="js/footer-reveal.js"></script>
-
-    <!-- YouTube Video Player js -->
-    <script src="js/YTPlayer.min.js"></script>
-
     <!-- GOOGLE MAPS -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBADnIw7r6GvStpU2eS0T8akkJCuEnATmA&callback=initMap" type="text/javascript"></script>
-    <!-- GOOGLE ACTIVE JS -->
-    <script src="js/map-active.js"></script>
-
+    
     <!-- Active js -->
     <script src="js/custom.js"></script>
 
