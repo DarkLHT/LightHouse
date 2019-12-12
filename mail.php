@@ -57,11 +57,11 @@ $mail->Body = $mailContent;
 if(!$mail->send()){
     echo 'Message could not be sent.';
     //echo 'Mailer Error: ' . $mail->ErrorInfo;
-header( "refresh:1; url=index.html" );
+header( "refresh:1; url=index.php" );
 
 }else{
     echo 'Message has been sent';
-header( "refresh:1; url=index.html" );
+header( "refresh:1; url=index.php" );
 }
 
 
