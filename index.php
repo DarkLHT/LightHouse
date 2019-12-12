@@ -53,7 +53,7 @@ header("X-XSS-Protection: 1; mode=block");
     <!-- MESSAGE BOX-->
     <section class="wrapper">
         <p>Envoie-nous un message! Nous n'avons pas de Live Chat, mais nous répondons toujours le plus rapidement possible.</p>
-        <textarea id="msg"></textarea>
+        <input type="text" name="msg" id="msg"><br>
         <button id="sendMsg">Envoyer</button>
     </section>
   
@@ -1653,7 +1653,7 @@ header("X-XSS-Protection: 1; mode=block");
 
     <!-- contact-map of the page -->
     <div class="map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26591.722133530093!2d-7.656794736855873!3d33.58025106714459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d31f52460095%3A0x8fd46fd891536a39!2sLight%20House%20Technology!5e0!3m2!1sfr!2sma!4v1576170263822!5m2!1sfr!2sma" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    <iframe sandbox src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26591.722133530093!2d-7.656794736855873!3d33.58025106714459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d31f52460095%3A0x8fd46fd891536a39!2sLight%20House%20Technology!5e0!3m2!1sfr!2sma!4v1576170263822!5m2!1sfr!2sma" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 	</div>
 
     <!-- >>>>>>>>>>>>>>>> Footer Area Start <<<<<<<<<<<<<<<< -->
