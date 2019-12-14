@@ -71,7 +71,7 @@ header("X-XSS-Protection: 1; mode=block");
                     <div class="col-sm-2 col-xs-9">
                         <!-- Logo Area -->
                         <div class="logo_area">
-                            <a href=""><img src="img/core-img/logo_Light_House_technology_LHT_Maroc.png" alt="Light House Technology est une société de conception web et de développement d’applications windows, web et mobiles."></a>
+                            <a href=""><img loading="lazy" src="img/core-img/logo_Light_House_technology_LHT_Maroc.png" alt="Light House Technology est une société de conception web et de développement d’applications windows, web et mobiles."></a>
                         </div>
                     </div>
                     <div class="col-sm-10 col-xs-12">
@@ -211,7 +211,7 @@ header("X-XSS-Protection: 1; mode=block");
                     <!-- About Us Area -->
                     <div class="col-xs-12 col-md-6">
                         <div class="about_us_thumb wow fadeInRight" data-wow-delay="0.2s">
-                            <img src="img/bg-pattern/conception_web_et_de_developpement_applications windows_web_et_mobiles.jpg" alt="Light House Technology est une société de conception web et de développement d’applications windows, web et mobiles.">
+                            <img loading="lazy" src="img/bg-pattern/conception_web_et_de_developpement_applications windows_web_et_mobiles.jpg" alt="Light House Technology est une société de conception web et de développement d’applications windows, web et mobiles.">
                         </div>
                     </div>
 
@@ -275,7 +275,7 @@ header("X-XSS-Protection: 1; mode=block");
                 <!--  Why Choose Image Area Start  -->
                 <div class="col-md-6">
                     <div class="why_choose_us_image wow fadeInRight" data-wow-delay="0.2s">
-                        <img src="img/bg-pattern/Satisfaction_client.png" alt="Nous accompagnons le client par un service technique compétent et toujours à l’écoute pour garantir la qualité du livrable avec engagement jusqu’à la satisfaction totale.">
+                        <img loading="lazy" src="img/bg-pattern/Satisfaction_client.png" alt="Nous accompagnons le client par un service technique compétent et toujours à l’écoute pour garantir la qualité du livrable avec engagement jusqu’à la satisfaction totale.">
                     </div>
                 </div>
             </div>
@@ -284,7 +284,7 @@ header("X-XSS-Protection: 1; mode=block");
                 <!--  Why Choose Image Area Start  -->
                 <div class="col-md-6">
                     <div class="why_choose_us_image second_area wow fadeInLeft" data-wow-delay="0.4s">
-                        <img src="img/bg-pattern/notre_mission.png" alt="Notre mission est d’intégrer des solutions informatiques dans le monde de l’entreprise en offrant des services de digitalisation, de gestion informatisé et de webmarketing.">
+                        <img loading="lazy" src="img/bg-pattern/notre_mission.png" alt="Notre mission est d’intégrer des solutions informatiques dans le monde de l’entreprise en offrant des services de digitalisation, de gestion informatisé et de webmarketing.">
                     </div>
                 </div>
                 <!--  Why Choose Text Area Start  -->
@@ -335,7 +335,7 @@ header("X-XSS-Protection: 1; mode=block");
                             <div class="service_details1_content">
                                 <!-- Service Details Thumb -->
                                 <div class="service_details1_thumb">
-                                    <img src="img/services-img/Developpement_applications_web_slide.jpg" alt="Création et développement d'applications web par la société LightHouse Technology au Maroc, Casablanca">
+                                    <img loading="lazy" src="img/services-img/Developpement_applications_web_slide.jpg" alt="Création et développement d'applications web par la société LightHouse Technology au Maroc, Casablanca">
                                 </div>
                                 <!-- Service Details Text Area -->
                                 <div class="single_part_content">
@@ -371,7 +371,7 @@ header("X-XSS-Protection: 1; mode=block");
                             <div class="service_details2_content">
                                 <!-- Service Details Thumb -->
                                 <div class="service_details2_thumb">
-                                    <img src="img/services-img/Developpement_applications_windows_slide.jpg" alt="Création et développement d'applications windows par la société LightHouse Technology au Maroc, Casablanca">
+                                    <img loading="lazy" src="img/services-img/Developpement_applications_windows_slide.jpg" alt="Création et développement d'applications windows par la société LightHouse Technology au Maroc, Casablanca">
                                 </div>
                                 <!-- Service Details Text Area -->
                                 <div class="single_part_content">
@@ -406,7 +406,7 @@ header("X-XSS-Protection: 1; mode=block");
                             <div class="service_details3_content">
                                 <!-- Service Details Thumb -->
                                 <div class="service_details3_thumb">
-                                    <img src="img/services-img/Developpement_applications_mobile_slide.jpg" alt="Création et développement d'applications mobile par la société LightHouse Technology au Maroc, Casablanca">
+                                    <img loading="lazy" src="img/services-img/Developpement_applications_mobile_slide.jpg" alt="Création et développement d'applications mobile par la société LightHouse Technology au Maroc, Casablanca">
                                 </div>
                                 <!-- Service Details Text Area -->
                                 <div class="single_part_content">
@@ -441,7 +441,7 @@ header("X-XSS-Protection: 1; mode=block");
                             <div class="service_details4_content">
                                 <!-- Service Details Thumb -->
                                 <div class="service_details4_thumb">
-                                    <img src="img/services-img/conception_web_slide.jpg" alt="développement et conception des sites web et application web par la société LightHouse Technology au Maroc, Casablanca">
+                                    <img loading="lazy" src="img/services-img/conception_web_slide.jpg" alt="développement et conception des sites web et application web par la société LightHouse Technology au Maroc, Casablanca">
                                 </div>
                                 <!-- Service Details Text Area -->
                                 <div class="single_part_content">
@@ -478,7 +478,7 @@ header("X-XSS-Protection: 1; mode=block");
                             <div class="service_details5_content">
                                 <!-- Service Details Thumb -->
                                 <div class="service_details5_thumb">
-                                    <img src="img/services-img/conception_graphique_slide.jpg" alt="design et conception graphique  par la société LightHouse Technology au Maroc, Casablanca">
+                                    <img loading="lazy" src="img/services-img/conception_graphique_slide.jpg" alt="design et conception graphique  par la société LightHouse Technology au Maroc, Casablanca">
                                 </div>
                                 <!-- Service Details Text Area -->
                                 <div class="single_part_content">
@@ -513,7 +513,7 @@ header("X-XSS-Protection: 1; mode=block");
                             <div class="service_details6_content">
                                 <!-- Service Details Thumb -->
                                 <div class="service_details6_thumb">
-                                    <img src="img/services-img/conseil_accompagnement_slide.jpg" alt="">
+                                    <img loading="lazy" src="img/services-img/conseil_accompagnement_slide.jpg" alt="">
                                 </div>
                                 <!-- Service Details Text Area -->
                                 <div class="single_part_content">
@@ -556,7 +556,7 @@ header("X-XSS-Protection: 1; mode=block");
                     <div class="single_service wow fadeInUp" data-wow-delay=".2s">
                         <!-- Single Service image -->
                         <div class="single_service_img">
-                            <img src="img/services-img/Developpement_applications_web.jpg" alt="">
+                            <img loading="lazy" src="img/services-img/Developpement_applications_web.jpg" alt="">
                         </div>
                         <!-- Single Service title -->
                         <div class="single_service_title">
@@ -581,7 +581,7 @@ header("X-XSS-Protection: 1; mode=block");
                     <div class="single_service wow fadeInUp" data-wow-delay=".4s">
                         <!-- Single Service image -->
                         <div class="single_service_img">
-                            <img src="img/services-img/Developpement_applications_windows.jpg" alt="">
+                            <img loading="lazy" src="img/services-img/Developpement_applications_windows.jpg" alt="">
                         </div>
                         <!-- Single Service title -->
                         <div class="single_service_title">
@@ -606,7 +606,7 @@ header("X-XSS-Protection: 1; mode=block");
                     <div class="single_service wow fadeInUp" data-wow-delay=".6s">
                         <!-- Single Service image -->
                         <div class="single_service_img">
-                            <img src="img/services-img/Developpement_applications_mobile.jpg" alt="">
+                            <img loading="lazy" src="img/services-img/Developpement_applications_mobile.jpg" alt="">
                         </div>
                         <!-- Single Service title -->
                         <div class="single_service_title">
@@ -631,7 +631,7 @@ header("X-XSS-Protection: 1; mode=block");
                     <div class="single_service wow fadeInUp" data-wow-delay=".8s">
                         <!-- Single Service image -->
                         <div class="single_service_img">
-                            <img src="img/services-img/conception_web.jpg" alt="">
+                            <img loading="lazy" src="img/services-img/conception_web.jpg" alt="">
                         </div>
                         <!-- Single Service title -->
                         <div class="single_service_title">
@@ -656,7 +656,7 @@ header("X-XSS-Protection: 1; mode=block");
                     <div class="single_service wow fadeInUp" data-wow-delay="1s">
                         <!-- Single Service image -->
                         <div class="single_service_img">
-                            <img src="img/services-img/conception_graphique.jpg" alt="">
+                            <img loading="lazy" src="img/services-img/conception_graphique.jpg" alt="">
                         </div>
                         <!-- Single Service title -->
                         <div class="single_service_title">
@@ -681,7 +681,7 @@ header("X-XSS-Protection: 1; mode=block");
                     <div class="single_service wow fadeInUp" data-wow-delay="1.2s">
                         <!-- Single Service image -->
                         <div class="single_service_img">
-                            <img src="img/services-img/conseil_accompagnement.jpg" alt="">
+                            <img loading="lazy" src="img/services-img/conseil_accompagnement.jpg" alt="">
                         </div>
                         <!-- Single Service title -->
                         <div class="single_service_title">
@@ -847,7 +847,7 @@ header("X-XSS-Protection: 1; mode=block");
                                         <!--  Gallery Slider -->
                                         <div class="single_gallary_slider">
                                             <div class="single_slider">
-                                                <img src="img/gallery/site-web-jidbox.jpg" alt="">
+                                                <img loading="lazy" src="img/gallery/site-web-jidbox.jpg" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -897,7 +897,7 @@ header("X-XSS-Protection: 1; mode=block");
                                         <!--  Gallery Slider -->
                                         <div class="single_gallary_slider">
                                             <div class="single_slider">
-                                                <img src="img/gallery/site-web-taddart.jpg" alt="">
+                                                <img loading="lazy" src="img/gallery/site-web-taddart.jpg" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -947,7 +947,7 @@ header("X-XSS-Protection: 1; mode=block");
                                         <!--  Gallery Slider -->
                                         <div class="single_gallary_slider">
                                             <div class="single_slider">
-                                                <img src="img/gallery/site-web-monalisa.jpg" alt="">
+                                                <img loading="lazy" src="img/gallery/site-web-monalisa.jpg" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -997,7 +997,7 @@ header("X-XSS-Protection: 1; mode=block");
                                         <!--  Gallery Slider -->
                                         <div class="single_gallary_slider">
                                             <div class="single_slider">
-                                                <img src="img/gallery/application-gestion-scolaire-diaa_almadrassa.jpg" alt="">
+                                                <img loading="lazy" src="img/gallery/application-gestion-scolaire-diaa_almadrassa.jpg" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -1052,7 +1052,7 @@ Plusieurs fonctionnalités sont conçues afin d’automatiser le process de gest
                                         <!--  Gallery Slider -->
                                         <div class="single_gallary_slider">
                                             <div class="single_slider">
-                                                <img src="img/gallery/site-web-sbi.jpg" alt="">
+                                                <img loading="lazy" src="img/gallery/site-web-sbi.jpg" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -1102,7 +1102,7 @@ Plusieurs fonctionnalités sont conçues afin d’automatiser le process de gest
                                         <!--  Gallery Slider -->
                                         <div class="single_gallary_slider">
                                             <div class="single_slider">
-                                                <img src="img/gallery/site-web-groupe-scolaire-emi.jpg" alt="">
+                                                <img loading="lazy" src="img/gallery/site-web-groupe-scolaire-emi.jpg" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -1152,7 +1152,7 @@ Plusieurs fonctionnalités sont conçues afin d’automatiser le process de gest
                                         <!--  Gallery Slider -->
                                         <div class="single_gallary_slider">
                                             <div class="single_slider">
-                                                <img src="img/gallery/site-web-lcc.jpg" alt="">
+                                                <img loading="lazy" src="img/gallery/site-web-lcc.jpg" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -1202,7 +1202,7 @@ Plusieurs fonctionnalités sont conçues afin d’automatiser le process de gest
                                         <!--  Gallery Slider -->
                                         <div class="single_gallary_slider">
                                             <div class="single_slider">
-                                                <img src="img/gallery/site-et-application-personalisé-de-gestion-et-comptabilite-smetrap.jpg" alt="">
+                                                <img loading="lazy" src="img/gallery/site-et-application-personalisé-de-gestion-et-comptabilite-smetrap.jpg" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -1257,7 +1257,7 @@ Le deuxième consiste en la création d’un ERP, prologiciel de gestion intégr
                                         <!--  Gallery Slider -->
                                         <div class="single_gallary_slider">
                                             <div class="single_slider">
-                                                <img src="img/gallery/conception-menu-restaurant-france-pizza.jpg" alt="">
+                                                <img loading="lazy" src="img/gallery/conception-menu-restaurant-france-pizza.jpg" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -1303,7 +1303,7 @@ Le deuxième consiste en la création d’un ERP, prologiciel de gestion intégr
                         <!-- JIDBOX Start -->
                         <div class="single_gallery_item wow fadeInUp" data-wow-delay="0.2s">
                             <a data-target="#works_jidbox" data-toggle="modal" href="#">
-                                <img src="img/gallery/site-web-jidbox.jpg" alt="">
+                                <img loading="lazy" src="img/gallery/site-web-jidbox.jpg" alt="">
                                 <!-- Single gallery Item hover caption -->
                                 <div class="hover_overlay">
                                     <div class="table">
@@ -1320,7 +1320,7 @@ Le deuxième consiste en la création d’un ERP, prologiciel de gestion intégr
                         <!-- TADD-ART Start -->
                         <div class="single_gallery_item wow fadeInUp" data-wow-delay=".4s">
                             <a data-target="#works_taddart" data-toggle="modal" href="#">
-                                <img src="img/gallery/site-web-taddart.jpg" alt="">
+                                <img loading="lazy" src="img/gallery/site-web-taddart.jpg" alt="">
                                 <!-- Single gallery Item hover caption -->
                                 <div class="hover_overlay">
                                     <div class="table">
@@ -1337,7 +1337,7 @@ Le deuxième consiste en la création d’un ERP, prologiciel de gestion intégr
                         <!-- MONALISA Start -->
                         <div class="single_gallery_item wow fadeInUp" data-wow-delay=".6s">
                             <a data-target="#works_monalisa" data-toggle="modal" href="#">
-                                <img src="img/gallery/site-web-monalisa.jpg" alt="">
+                                <img loading="lazy" src="img/gallery/site-web-monalisa.jpg" alt="">
                                 <!-- Single gallery Item hover caption -->
                                 <div class="hover_overlay">
                                     <div class="table">
@@ -1354,7 +1354,7 @@ Le deuxième consiste en la création d’un ERP, prologiciel de gestion intégr
                         <!-- DIAA Start -->
                         <div class="single_gallery_item wow fadeInUp" data-wow-delay="0.2s">
                             <a data-target="#works_diaa" data-toggle="modal" href="#">
-                                <img src="img/gallery/application-gestion-scolaire-diaa_almadrassa.jpg" alt="">
+                                <img loading="lazy" src="img/gallery/application-gestion-scolaire-diaa_almadrassa.jpg" alt="">
                                 <!-- Single gallery Item hover caption -->
                                 <div class="hover_overlay">
                                     <div class="table">
@@ -1371,7 +1371,7 @@ Le deuxième consiste en la création d’un ERP, prologiciel de gestion intégr
                         <!-- SBI Start -->
                         <div class="single_gallery_item wow fadeInUp" data-wow-delay=".4s">
                             <a data-target="#works_sbi" data-toggle="modal" href="#">
-                                <img src="img/gallery/site-web-sbi.jpg" alt="">
+                                <img loading="lazy" src="img/gallery/site-web-sbi.jpg" alt="">
                                 <!-- Single gallery Item hover caption -->
                                 <div class="hover_overlay">
                                     <div class="table">
@@ -1388,7 +1388,7 @@ Le deuxième consiste en la création d’un ERP, prologiciel de gestion intégr
                         <!-- EMI Start -->
                         <div class="single_gallery_item wow fadeInUp" data-wow-delay=".6s">
                             <a data-target="#works_emi" data-toggle="modal" href="#">
-                                <img src="img/gallery/site-web-groupe-scolaire-emi.jpg" alt="">
+                                <img loading="lazy" src="img/gallery/site-web-groupe-scolaire-emi.jpg" alt="">
                                 <!-- Single gallery Item hover caption -->
                                 <div class="hover_overlay">
                                     <div class="table">
@@ -1405,7 +1405,7 @@ Le deuxième consiste en la création d’un ERP, prologiciel de gestion intégr
                         <!-- LCC Start -->
                         <div class="single_gallery_item wow fadeInUp" data-wow-delay=".8s">
                             <a data-target="#works_lcc" data-toggle="modal" href="#">
-                                <img src="img/gallery/site-web-lcc.jpg" alt="">
+                                <img loading="lazy" src="img/gallery/site-web-lcc.jpg" alt="">
                                 <!-- Single gallery Item hover caption -->
                                 <div class="hover_overlay">
                                     <div class="table">
@@ -1422,7 +1422,7 @@ Le deuxième consiste en la création d’un ERP, prologiciel de gestion intégr
                         <!-- SMETRAP Start -->
                         <div class="single_gallery_item wow fadeInUp" data-wow-delay="1s">
                             <a data-target="#works_smetrap" data-toggle="modal" href="#">
-                                <img src="img/gallery/site-et-application-personalisé-de-gestion-et-comptabilite-smetrap.jpg" alt="">
+                                <img loading="lazy" src="img/gallery/site-et-application-personalisé-de-gestion-et-comptabilite-smetrap.jpg" alt="">
                                 <!-- Single gallery Item hover caption -->
                                 <div class="hover_overlay">
                                     <div class="table">
@@ -1439,7 +1439,7 @@ Le deuxième consiste en la création d’un ERP, prologiciel de gestion intégr
                         <!-- FRANCE PIZZA Start -->
                         <div class="single_gallery_item wow fadeInUp" data-wow-delay="1.2s">
                             <a data-target="#works_francepizza" data-toggle="modal" href="#">
-                                <img src="img/gallery/conception-menu-restaurant-france-pizza.jpg" alt="">
+                                <img loading="lazy" src="img/gallery/conception-menu-restaurant-france-pizza.jpg" alt="">
                                 <!-- Single gallery Item hover caption -->
                                 <div class="hover_overlay">
                                     <div class="table">
@@ -1707,10 +1707,10 @@ Le deuxième consiste en la création d’un ERP, prologiciel de gestion intégr
     <!-- jQuery (necessary for all JavaScript plugins) & chat box js & Bootstrap js & Owl-carousel js & Meanmenu js 
          & Onepage Nav js  & Magnific Popup js & Back to top js & jQuery easing js & WOW js & parallux js & Footer Reveal js
          & YouTube Video Player js & GOOGLE ACTIVE JS-->
-    <script src="js/all.js"></script>
+    <script defer src="js/all.js"></script>
     
     <!-- Active js -->
-    <script src="js/custom.js"></script>
+    <script defer src="js/custom.js"></script>
     <noscript>Your browser does not support JavaScript!</noscript>
 </body>
 </html>
