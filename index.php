@@ -860,7 +860,7 @@ header("X-XSS-Protection: 1; mode=block");
                                             </div>
                                             <!--  Description -->
                                             <div class="description">
-                                                <p aria-hidden="true"></p>
+                                                <p aria-hidden="true">Jidbox Design, site web pour une société spécialisée dans le revêtement de sols et des murs et qui propose une large gamme de produits et services destinés aux particuliers et professionnels.</p>
                                             </div>
                                             <!--   live preview button   -->
                                             <div class="live_preview">
@@ -910,7 +910,7 @@ header("X-XSS-Protection: 1; mode=block");
                                             </div>
                                             <!--  Description -->
                                             <div class="description">
-                                                <p aria-hidden="true"></p>
+                                                <p aria-hidden="true">Dans le cadre du partenariat avec l’équipe TADD-ART à la compétition internationale Solar Decathlon Africa 2019 organisée par IRESEN. Développement d’un site web statique au profit de l’équipe TADD-ART, porteuse du projet de conception architecturale durable et 100% marocaine.</p>
                                             </div>
                                             <!--   live preview button   -->
                                             <div class="live_preview">
@@ -960,7 +960,7 @@ header("X-XSS-Protection: 1; mode=block");
                                             </div>
                                             <!--  Description -->
                                             <div class="description">
-                                                <p aria-hidden="true"></p>
+                                                <p aria-hidden="true">Site web statique pour Monalisa, salon de coiffure et de beauté basé à Casablanca à travers 3 salons : 2 mars, Ibn Tachfine et Al Qods. Des séances de shooting photo professionnelles inclus.</p>
                                             </div>
                                             <!--   live preview button   -->
                                             <div class="live_preview">
@@ -1010,11 +1010,16 @@ header("X-XSS-Protection: 1; mode=block");
                                             </div>
                                             <!--  Description -->
                                             <div class="description">
-                                                <p aria-hidden="true"></p>
+                                                <p aria-hidden="true">Dans le cadre de ce projet, nous avons développé une solution web de gestion scolaire intitulée “Diaa Almadrassa”. Il s’agit d’une application intuitive, smart, sécurisée et adaptée au fonctionnement et processus de gestion des écoles marocaines. 
+
+Notre conception s’est basée sur l’écoute et l’analyse de différents modèles éducatifs afin d’apporter une personnalisation adaptée et efficace de l’application aux processus de chaque établissement.
+
+Plusieurs fonctionnalités sont conçues afin d’automatiser le process de gestion de la vie scolaire. Ainsi, Diaa Almadrassa centralise toutes les données en une seule plateforme. Et grâce à des portails synchronisés, le partage d’informations se fait en temps réel et permet à chaque acteur (élève, professeur, administrateur,etc.), via sa propre interface, de suivre de près les volets qui le concernent.
+</p>
                                             </div>
                                             <!--   live preview button   -->
                                             <div class="live_preview">
-                                                <a href="https://www.behance.net/lighthousetechnology" target="_blank"><i class="fa fa-eye" aria-hidden="true"></i>Visualiser notre projet</a>
+                                                <a href="http://www.diaa.ma/" target="_blank"><i class="fa fa-eye" aria-hidden="true"></i>Visualiser notre projet</a>
                                             </div>
                                         </div>
 
@@ -1060,11 +1065,11 @@ header("X-XSS-Protection: 1; mode=block");
                                             </div>
                                             <!--  Description -->
                                             <div class="description">
-                                                <p aria-hidden="true"></p>
+                                                <p aria-hidden="true">Site web statique et contenu texte au profit de la Société Boudenib Industrie (SBI), spécialisée principalement dans le domaine de l’infrastructure télécom. SBI conçoit également des solutions de systèmes énergétiques et propose des services en matière de génie civil.</p>
                                             </div>
                                             <!--   live preview button   -->
                                             <div class="live_preview">
-                                                <a href="https://www.behance.net/lighthousetechnology" target="_blank"><i class="fa fa-eye" aria-hidden="true"></i>Visualiser notre projet</a>
+                                                <a href="https://www.behance.net/gallery/89583193/Projet-SBI" target="_blank"><i class="fa fa-eye" aria-hidden="true"></i>Visualiser notre projet</a>
                                             </div>
                                         </div>
 
@@ -1110,7 +1115,7 @@ header("X-XSS-Protection: 1; mode=block");
                                             </div>
                                             <!--  Description -->
                                             <div class="description">
-                                                <p aria-hidden="true"></p>
+                                                <p aria-hidden="true">Conception web et contenu texte pour le groupe scolaire Manahij Al Irfane, établissement privé présent sur trois Ecoles au Maroc et proposant une formation complète regroupant les cycles primaire, collège et lycée.</p>
                                             </div>
                                             <!--   live preview button   -->
                                             <div class="live_preview">
@@ -1160,11 +1165,11 @@ header("X-XSS-Protection: 1; mode=block");
                                             </div>
                                             <!--  Description -->
                                             <div class="description">
-                                                <p aria-hidden="true"></p>
+                                                <p aria-hidden="true">Conception web et contenu texte pour un centre de formation linguistique LCC (L’art de la Communication et du Coaching). Le centre propose des cours pédagogiques en 5 langues, le Français, l’Anglais, l’Espagnol, l'Allemand, et l’arabe classique.</p>
                                             </div>
                                             <!--   live preview button   -->
                                             <div class="live_preview">
-                                                <a href="https://www.behance.net/lighthousetechnology" target="_blank"><i class="fa fa-eye" aria-hidden="true"></i>Visualiser notre projet</a>
+                                                <a href="https://www.behance.net/gallery/89476071/Projet-LCC" target="_blank"><i class="fa fa-eye" aria-hidden="true"></i>Visualiser notre projet</a>
                                             </div>
                                         </div>
 
@@ -1210,11 +1215,16 @@ header("X-XSS-Protection: 1; mode=block");
                                             </div>
                                             <!--  Description -->
                                             <div class="description">
-                                                <p aria-hidden="true"></p>
+                                                <p aria-hidden="true">Avec Smetrap, société de service active dans le secteur de travaux de terrassement, VRD et génie civil, nous avons réalisé deux projets.
+
+Le premier projet consiste en la conception et la mise en place d’un site web dynamique présentant d’abord toutes les activités de l'entreprise, ses objectifs et sa vision. Cette plateforme web permet également au client de gérer ses produits, ses moyens matériels ainsi que  l’ensemble de ses réalisations.
+
+Le deuxième consiste en la création d’un ERP, prologiciel de gestion intégré permettant de gérer l'ensemble des processus de l’entreprise SMETRAP.
+</p>
                                             </div>
                                             <!--   live preview button   -->
                                             <div class="live_preview">
-                                                <a href="https://www.behance.net/lighthousetechnology" target="_blank"><i class="fa fa-eye" aria-hidden="true"></i>Visualiser notre projet</a>
+                                                <a href="https://www.behance.net/gallery/89529301/Projet-SMETRAP" target="_blank"><i class="fa fa-eye" aria-hidden="true"></i>Visualiser notre projet</a>
                                             </div>
                                         </div>
 
@@ -1260,7 +1270,7 @@ header("X-XSS-Protection: 1; mode=block");
                                             </div>
                                             <!--  Description -->
                                             <div class="description">
-                                                <p aria-hidden="true"></p>
+                                                <p aria-hidden="true">Conception d’un livret menu d’une vingtaine de pages avec impression pour le restaurant France Pizza basé à Casablanca. Nous avons alors travaillé sur le design du logo et du menu tout en respectant l’identité du restaurant. Des séances de shooting photo culinaire professionnelles ont été également tenues.</p>
                                             </div>
                                             <!--   live preview button   -->
                                             <div class="live_preview">
