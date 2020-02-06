@@ -49,8 +49,29 @@ header("X-XSS-Protection: 1; mode=block");
         <span class="cssload-loader"><span class="cssload-loader-inner"></span></span>
     </div>
 
+    <!--==========Header Top area==========-->
+        <div class="header_top">
+            <div class="container">
+                <div class="pull-left company_content">
+                    <h4>WE USE TECHNOLOGY TO MAKE YOUR BUSNESS BETTER</h4>
+                </div>
+                <div class="pull-right header_language">
+                    <a href="index.php"><img src="img/fr-flag.png"><a>
+                    <a href="index.php"><img src="img/en-flag.png"><a>
+                    <ul class="header_social">
+                        <li><a href="https://www.facebook.com/lighthousemaroc"><i class="icofont icofont-social-facebook"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/light-house-technology/about/"><i class="icofont icofont-social-linkedin"></i></a></li>
+                        <li><a href="https://api.whatsapp.com/send?phone=+212661327752?&text=WEB:"><i class="icofont icofont-social-whatsapp"></i></a></li>
+                        <li><a href="https://www.behance.net/lighthousetechnology"><i class="icofont icofont-social-behance"></i></a></li>
+                    </ul>
+                    <button type="submit" class="acces request_btn">Sign in</button>
+                </div>
+            </div>
+        </div>
+        <!--==========End Header Top area==========-->
+
     <!-- >>>>>>>>>>>>>>>> CHAT BOX <<<<<<<<<<<<<<<< -->
-    <!-- MESSAGE BOX-->
+    <!-- MESSAGE BOX--> 
     <section class="wrapper">
         <p>Envoie-nous un message! Nous n'avons pas de Live Chat, mais nous répondons toujours le plus rapidement possible.</p>
         <input type="text" name="msg" id="msg"><br>
@@ -85,6 +106,7 @@ header("X-XSS-Protection: 1; mode=block");
                                         <li><a href="#services">Services</a></li>
                                         <li><a href="#work">Projects</a></li>
                                         <li><a href="#Processus">Notre Processus</a></li>
+                                        <li><a href="#blog">Blog</a></li>
                                         <li><a href="#contact">Contact</a></li>
                                     </ul>
                                 </nav>
@@ -1011,11 +1033,9 @@ header("X-XSS-Protection: 1; mode=block");
                                             <!--  Description -->
                                             <div class="description">
                                                 <p aria-hidden="true">Dans le cadre de ce projet, nous avons développé une solution web de gestion scolaire intitulée “Diaa Almadrassa”. Il s’agit d’une application intuitive, smart, sécurisée et adaptée au fonctionnement et processus de gestion des écoles marocaines. 
-
-Notre conception s’est basée sur l’écoute et l’analyse de différents modèles éducatifs afin d’apporter une personnalisation adaptée et efficace de l’application aux processus de chaque établissement.
-
-Plusieurs fonctionnalités sont conçues afin d’automatiser le process de gestion de la vie scolaire. Ainsi, Diaa Almadrassa centralise toutes les données en une seule plateforme. Et grâce à des portails synchronisés, le partage d’informations se fait en temps réel et permet à chaque acteur (élève, professeur, administrateur,etc.), via sa propre interface, de suivre de près les volets qui le concernent.
-</p>
+                                                    Notre conception s’est basée sur l’écoute et l’analyse de différents modèles éducatifs afin d’apporter une personnalisation adaptée et efficace de l’application aux processus de chaque établissement.
+                                                    Plusieurs fonctionnalités sont conçues afin d’automatiser le process de gestion de la vie scolaire. Ainsi, Diaa Almadrassa centralise toutes les données en une seule plateforme. Et grâce à des portails synchronisés, le partage d’informations se fait en temps réel et permet à chaque acteur (élève, professeur, administrateur,etc.), via sa propre interface, de suivre de près les volets qui le concernent.
+                                                </p>
                                             </div>
                                             <!--   live preview button   -->
                                             <div class="live_preview">
@@ -1216,11 +1236,9 @@ Plusieurs fonctionnalités sont conçues afin d’automatiser le process de gest
                                             <!--  Description -->
                                             <div class="description">
                                                 <p aria-hidden="true">Avec Smetrap, société de service active dans le secteur de travaux de terrassement, VRD et génie civil, nous avons réalisé deux projets.
-
-Le premier projet consiste en la conception et la mise en place d’un site web dynamique présentant d’abord toutes les activités de l'entreprise, ses objectifs et sa vision. Cette plateforme web permet également au client de gérer ses produits, ses moyens matériels ainsi que  l’ensemble de ses réalisations.
-
-Le deuxième consiste en la création d’un ERP, prologiciel de gestion intégré permettant de gérer l'ensemble des processus de l’entreprise SMETRAP.
-</p>
+                                                    Le premier projet consiste en la conception et la mise en place d’un site web dynamique présentant d’abord toutes les activités de l'entreprise, ses objectifs et sa vision. Cette plateforme web permet également au client de gérer ses produits, ses moyens matériels ainsi que  l’ensemble de ses réalisations.
+                                                    Le deuxième consiste en la création d’un ERP, prologiciel de gestion intégré permettant de gérer l'ensemble des processus de l’entreprise SMETRAP.
+                                                </p>
                                             </div>
                                             <!--   live preview button   -->
                                             <div class="live_preview">
@@ -1557,8 +1575,311 @@ Le deuxième consiste en la création d’un ERP, prologiciel de gestion intégr
     </section>
     <!-- >>>>>>>>>>>>>>>> Méthodologie de travail Area End <<<<<<<<<<<<<<<< -->
 
+    <!-- >>>>>>>>>>>>>>>> Testimonial Area Start <<<<<<<<<<<<<<<< -->
+    <div class="testimonial_area section_padding_100" data-stellar-background-ratio="0.6">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <!-- Section Heading Start -->
+                    <div class="section_heading">
+                        <p>Voici quelques références de nos clients avec lesquels nous collaborons</p>
+                        <h3>Partenaires & Références clients</h3>
+                    </div>
+                    <!-- Section Heading End -->
+                </div>
+
+                <div class="col-xs-12 col-md-8 col-md-offset-2">
+                    <div class="testimonials_area">
+
+                        <div class="testimonials">
+                            <!-- Single testimonial area start  -->
+                            <div class="single_testimonial_area">
+                                <!-- Single testimonial text  -->
+                                <div class="testimonial_text">
+                                    <!-- Single testimonial thumb  -->
+                                    <div class="testimonial_author_thumb">
+                                        <img src="img/references/tes-1.jpg" alt="">
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti iusto voluptatum voluptas soluta, rem! Deserunt sint nam consequatur laborum, aperiam quod, quo impedit ea. Veniam, doloribus, molestias? Architecto, maxime et?</p>
+                                </div>
+                                <div class="testimonial_author_name">
+                                    <h5>JIDBOX DESIGN</h5>
+                                    <h6>CEO &amp; Founder, CreativeRacer</h6>
+                                </div>
+                            </div>
+
+                            <!-- Single testimonial area start  -->
+                            <div class="single_testimonial_area">
+                                <!-- Single testimonial text  -->
+                                <div class="testimonial_text">
+                                    <!-- Single testimonial thumb  -->
+                                    <div class="testimonial_author_thumb">
+                                        <img src="img/references/tes-3.jpg" alt="">
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti iusto voluptatum voluptas soluta, rem! Deserunt sint nam consequatur laborum, aperiam quod, quo impedit ea. Veniam, doloribus, molestias? Architecto, maxime et?</p>
+                                </div>
+                                <div class="testimonial_author_name">
+                                    <h5>LIM SARAH</h5>
+                                    <h6>CEO &amp; Founder, ClassyFort</h6>
+                                </div>
+                            </div>
+
+                            <!-- Single testimonial area start  -->
+                            <div class="single_testimonial_area">
+                                <!-- Single testimonial text  -->
+                                <div class="testimonial_text">
+                                    <!-- Single testimonial thumb  -->
+                                    <div class="testimonial_author_thumb">
+                                        <img src="img/references/tes-2.jpg" alt="">
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti iusto voluptatum voluptas soluta, rem! Deserunt sint nam consequatur laborum, aperiam quod, quo impedit ea. Veniam, doloribus, molestias? Architecto, maxime et?</p>
+                                </div>
+                            </div>
+
+                            <!-- Single testimonial area start  -->
+                            <div class="single_testimonial_area">
+                                <!-- Single testimonial text  -->
+                                <div class="testimonial_text">
+                                    <!-- Single testimonial thumb  -->
+                                    <div class="testimonial_author_thumb">
+                                        <img src="img/references/tes-2.jpg" alt="">
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti iusto voluptatum voluptas soluta, rem! Deserunt sint nam consequatur laborum, aperiam quod, quo impedit ea. Veniam, doloribus, molestias? Architecto, maxime et?</p>
+                                </div>
+                            </div>
+
+                            <!-- Single testimonial area start  -->
+                            <div class="single_testimonial_area">
+                                <!-- Single testimonial text  -->
+                                <div class="testimonial_text">
+                                    <!-- Single testimonial thumb  -->
+                                    <div class="testimonial_author_thumb">
+                                        <img src="img/references/tes-2.jpg" alt="">
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti iusto voluptatum voluptas soluta, rem! Deserunt sint nam consequatur laborum, aperiam quod, quo impedit ea. Veniam, doloribus, molestias? Architecto, maxime et?</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- >>>>>>>>>>>>>>>> Testimonial Area End <<<<<<<<<<<<<<<< -->
+
+    <!-- >>>>>>>>>>>>>>>> Blog Area Start <<<<<<<<<<<<<<<< -->
+    <section class="blog_area section_padding_100_0" id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <!-- Section Heading Start -->
+                    <div class="section_heading">
+                        <p>Nos articles créatives</p>
+                        <h3>Dernières nouvelles</h3>
+                    </div>
+                    <!-- Section Heading End -->
+                </div>
+            </div>
+            <div class="row">
+
+                <!-- single latest news area start -->
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="single_latest_news_area wow fadeInUp" data-wow-delay=".2s">
+                        <!-- single latest news thumb -->
+                        <div class="single_latest_news_img_area">
+                            <img src="img/articles/blog.jpg" alt="">
+                            <!-- single latest news published date -->
+                        </div>
+                        <div class="single_latest_news_text_area">
+                            <!-- single latest news title -->
+                            <div class="news_title">
+                                <a href="single.html"><h4>Titre d'articles numéro 1</h4></a>
+                            </div>
+                            <!-- single latest news excerp -->
+                            <div class="news_content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia magni, voluptate! Recusandae deleniti doloribus.</p>
+                            </div>
+                            <a href="single.html">Lire la suite</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- single latest news area start -->
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="single_latest_news_area wow fadeInUp" data-wow-delay=".4s">
+                        <!-- single latest news thumb -->
+                        <div class="single_latest_news_img_area">
+                            <img src="img/articles/blog.jpg" alt="">
+                            <!-- single latest news published date -->
+                        </div>
+                        <div class="single_latest_news_text_area">
+                            <!-- single latest news title -->
+                            <div class="news_title">
+                                <a href="single.html"><h4>Titre d'articles numéro 2</h4></a>
+                            </div>
+                            <!-- single latest news excerp -->
+                            <div class="news_content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia magni, voluptate! Recusandae deleniti doloribus.</p>
+                            </div>
+                            <a href="single.html">Lire la suite</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- single latest news area start -->
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="single_latest_news_area wow fadeInUp" data-wow-delay=".6s">
+                        <!-- single latest news thumb -->
+                        <div class="single_latest_news_img_area">
+                            <img src="img/articles/blog.jpg" alt="">
+                            <!-- single latest news published date -->
+                        </div>
+                        <div class="single_latest_news_text_area">
+                            <!-- single latest news title -->
+                            <div class="news_title">
+                                <a href="single.html"><h4>Titre d'articles numéro 3</h4></a>
+                            </div>
+                            <!-- single latest news excerp -->
+                            <div class="news_content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia magni, voluptate! Recusandae deleniti doloribus.</p>
+                            </div>
+                            <a href="single.html">Lire la suite</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- >>>>>>>>>>>>>>>> Blog Area End <<<<<<<<<<<<<<<< -->
+    
+    <!-- >>>>>>>>>>>>>>>> Partenaires Start <<<<<<<<<<<<<<<< -->
+    <section class="our_advisor_area clearfix section_padding_100" id="advisor">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <!-- Section Heading Start -->
+                    <div class="section_heading">
+                        <p>Voici quelques références de nos clients avec lesquels nous collaborons</p>
+                        <h3>Partenaires & Références clients</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Single advisor profile area start -->
+                <div class="col-xs-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+                    <div class="single_advisor_profile">
+
+                        <div class="single_advisor_slide">
+                            <!-- Single advisor profile thumb -->
+                            <div class="advisor_thumb">
+                                <img src="img/references/advisor-1.png" alt="">
+                            </div>
+                            <!-- Single advisor profile details -->
+                            <div class="single_advisor_details_info">
+                                <h4>Société LogMeIn</h4>
+                                <p class="designation">Solution GoToMeeting</p>
+                                <div class="about_advisor">
+                                    <p>Outil de réunion et de conférence Web en ligne qui permet aux entreprises de collaborer avec des clients, des clients ou des collègues via Internet en temps réel.</p>
+                                </div>
+                                <!-- Single advisor social link -->
+                                <div class="advisor_social_info">
+                                    <div class="social_icon">
+                                        <a href="#"><i class="icofont icofont-social-facebook"></i></a>
+                                        <a href="#"><i class="icofont icofont-social-twitter"></i></a>
+                                        <a href="#"><i class="icofont icofont-social-google-plus"></i></a>
+                                        <a href="#"><i class="icofont icofont-social-pinterest"></i></a>
+                                        <a href="#"><i class="icofont icofont-social-youtube-play"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="single_advisor_slide">
+                            <!-- Single advisor profile thumb -->
+                            <div class="advisor_thumb">
+                                <img src="img/references/advisor-2.png" alt="">
+                            </div>
+                            <!-- Single advisor profile details -->
+                            <div class="single_advisor_details_info">
+                                <h4>Société SMETRAP</h4>
+                                <p class="designation">Solution ERP SMETRAP</p>
+                                <div class="about_advisor">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis deleniti consectetur commodi, qui esse quod similique atque fugiat nostrum necessitatibus quia doloribus, veritatis, eaque error eos accusamus.</p>
+                                </div>
+                                <!-- Single advisor social link -->
+                                <div class="advisor_social_info">
+                                    <div class="social_icon">
+                                        <a href="#"><i class="icofont icofont-social-facebook"></i></a>
+                                        <a href="#"><i class="icofont icofont-social-twitter"></i></a>
+                                        <a href="#"><i class="icofont icofont-social-google-plus"></i></a>
+                                        <a href="#"><i class="icofont icofont-social-pinterest"></i></a>
+                                        <a href="#"><i class="icofont icofont-social-youtube-play"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="single_advisor_slide">
+                            <!-- Single advisor profile thumb -->
+                            <div class="advisor_thumb">
+                                <img src="img/references/advisor-3.png" alt="">
+                            </div>
+                            <!-- Single advisor profile details -->
+                            <div class="single_advisor_details_info">
+                                <h4>Tadd-Art</h4>
+                                <p class="designation">Compétition internationale</p>
+                                <div class="about_advisor">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis deleniti consectetur commodi, qui esse quod similique atque fugiat nostrum necessitatibus quia doloribus, veritatis, eaque error eos accusamus.</p>
+                                </div>
+                                <!-- Single advisor social link -->
+                                <div class="advisor_social_info">
+                                    <div class="social_icon">
+                                        <a href="#"><i class="icofont icofont-social-facebook"></i></a>
+                                        <a href="#"><i class="icofont icofont-social-twitter"></i></a>
+                                        <a href="#"><i class="icofont icofont-social-google-plus"></i></a>
+                                        <a href="#"><i class="icofont icofont-social-pinterest"></i></a>
+                                        <a href="#"><i class="icofont icofont-social-youtube-play"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="single_advisor_slide">
+                            <!-- Single advisor profile thumb -->
+                            <div class="advisor_thumb">
+                                <img src="img/references/advisor-4.png" alt="">
+                            </div>
+                            <!-- Single advisor profile details -->
+                            <div class="single_advisor_details_info">
+                                <h4>JIDBOX</h4>
+                                <p class="designation">Conception Web</p>
+                                <div class="about_advisor">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis deleniti consectetur commodi, qui esse quod similique atque fugiat nostrum necessitatibus quia doloribus, veritatis, eaque error eos accusamus.</p>
+                                </div>
+                                <!-- Single advisor social link -->
+                                <div class="advisor_social_info">
+                                    <div class="social_icon">
+                                        <a href="#"><i class="icofont icofont-social-facebook"></i></a>
+                                        <a href="#"><i class="icofont icofont-social-twitter"></i></a>
+                                        <a href="#"><i class="icofont icofont-social-google-plus"></i></a>
+                                        <a href="#"><i class="icofont icofont-social-pinterest"></i></a>
+                                        <a href="#"><i class="icofont icofont-social-youtube-play"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- >>>>>>>>>>>>>>>> Partenaires End <<<<<<<<<<<<<<<< -->
+
     <!-- >>>>>>>>>>>>>>>> Contactez-nous Area Start <<<<<<<<<<<<<<<< -->
-    <section class="message_now_area section_padding_50_100" id="contact">
+    <section class="message_now_area section_padding_100_70 " id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
@@ -1691,7 +2012,7 @@ Le deuxième consiste en la création d’un ERP, prologiciel de gestion intégr
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="footer_bottom">
-                            <p>©2019<a href="#"> Light House Technology</a> All rights reserved.</p>
+                            <p>©2019-2020<a href="https://lighthouse.ma/"> Light House Technology</a> All rights reserved.</p>
                         </div>
                         <!-- Bottom Footer Copywrite Text Area End -->
                     </div>

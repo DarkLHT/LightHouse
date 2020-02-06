@@ -29,7 +29,7 @@ $mail->setFrom($email);
 //$mail->addReplyTo('contact@lighthouse.ma', 'CodexWorld');
 
 // Add a recipient
-$mail->addAddress('contact@lighthouse.ma');
+$mail->addAddress('sofian.beddi@lighthouse.ma');
 
 // Add cc or bcc 
 

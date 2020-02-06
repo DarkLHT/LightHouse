@@ -21,13 +21,13 @@ a.meanmenu-reveal {
     font-weight: 700;
     height: 24px;
     line-height: 24px;
-    padding: 33px 18px;
+    padding: 160px 18px;
     position: absolute;
     right: 0;
     text-decoration: none;
     text-indent: -9999em;
     top: 0;
-    color: #2c3e50;
+    color: #ffffff;
     width: 28px;
 }
 
@@ -168,6 +168,22 @@ a.meanmenu-reveal {
    
 }
 
+.mean-container a.meanmenu-reveal {
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 1px;
+    font-weight: 700;
+    height: 24px;
+    line-height: 24px;
+    padding: 35px 20px;
+    position: fixed;
+    right: 0;
+    text-decoration: none;
+    text-indent: -9999em;
+    top: 0;
+    width: 28px;
+}
 
 .mean-container.mobile_menu_on a.meanmenu-reveal {
     color: #2c3e50;
